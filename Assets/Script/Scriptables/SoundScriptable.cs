@@ -3,7 +3,7 @@ using UnityEngine.Audio;
 
 namespace InterviewTask.Scriptables
 {
-    [CreateAssetMenu(fileName = "Sound", menuName = "OneBitJam/Sound", order = 0)]
+    [CreateAssetMenu(fileName = "Sound", menuName = "Sounds/Sound scriptable", order = 0)]
     public class SoundScriptable : ScriptableObject
     {
         public string Id;
