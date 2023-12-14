@@ -8,9 +8,6 @@ namespace InterviewTask.Managers
         public static SoundManager Instance;
 
         [SerializeField] private SoundScriptable[] allScriptables;
-        [SerializeField] private bool testSound = true;
-        [SerializeField] private string testId = "Shot";
-        [SerializeField] private string testMusicId = "Music";
 
         private void Awake() => Instance = this;
 
