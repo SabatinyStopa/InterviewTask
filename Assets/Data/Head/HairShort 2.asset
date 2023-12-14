@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dde207ad233c6143bab349a61a6832f, type: 3}
+  m_Name: HairShort 2
+  m_EditorClassIdentifier: 
+  Part: 1
+  PartColor: {r: 0.7189224, g: 0.5058824, b: 1, a: 1}
+  Name: e
+  Value: 100
+  ImageSprite: {fileID: 1133279087, guid: 0acc9aee89d00ce4e888a86f4c0f5391, type: 3}
+  Animator: {fileID: 9100000, guid: c383fe45815cb2b438e793cc0cb5259a, type: 2}

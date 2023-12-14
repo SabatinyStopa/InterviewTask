@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dde207ad233c6143bab349a61a6832f, type: 3}
+  m_Name: Base 2
+  m_EditorClassIdentifier: 
+  Part: 0
+  PartColor: {r: 0.5254902, g: 1, b: 0.59784603, a: 1}
+  Name: Basic pant
+  Value: 100
+  ImageSprite: {fileID: 1520155892, guid: 4ad6ed6b899231f4cb4654227ec3b5a3, type: 3}
+  Animator: {fileID: 9100000, guid: dea957d0ff017fb4b90091ea124b9a9b, type: 2}
