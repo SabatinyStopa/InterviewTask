@@ -11,6 +11,7 @@ namespace InterviewTask.Managers
 
         [SerializeField] private GameObject buyItemButton;
         [SerializeField] private GameObject soldItemButton;
+        [SerializeField] private GameObject equipItemButton;
         [SerializeField] private InventoryManager inventoryManager;
 
         private ItemUI currentSelectedItem;
@@ -38,22 +39,9 @@ namespace InterviewTask.Managers
         public void Select(ItemUI itemUI)
         {
             soldItemButton.SetActive(itemUI.IsSold);
+            equipItemButton.SetActive(itemUI.IsSold);
             buyItemButton.SetActive(!itemUI.IsSold);
             currentSelectedItem = itemUI;
-
-            if (itemUI.Item.Part == Enums.CustomizableParts.body)
-            {
-                previewHead.sprite = head.sprite;
-                previewHead.color = head.color;
-
-                previewHead.enabled = head.enabled;
-            }
-            else
-            {
-                previewBody.sprite = body.sprite;
-                previewBody.color = body.color;
-                previewHead.enabled = true;
-            }
         }
 
         public void OnClickBuy()
@@ -64,6 +52,7 @@ namespace InterviewTask.Managers
                 currentSelectedItem.SetSold();
                 inventoryManager.BuyItem(currentSelectedItem.Item);
                 soldItemButton.SetActive(true);
+                equipItemButton.SetActive(true);
                 buyItemButton.SetActive(false);
 
                 EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
@@ -74,11 +63,52 @@ namespace InterviewTask.Managers
         {
             if (currentSelectedItem == null || !currentSelectedItem.IsSold) return;
 
+            if (inventoryManager.IsItemEquipped(currentSelectedItem.Item))
+            {
+                if (currentSelectedItem.Item.Part == Enums.CustomizableParts.body)
+                {
+                    body.sprite = bodyDefault;
+                    body.color = Color.white;
+
+                    bodyAnimator.runtimeAnimatorController = bodyAnimatorDefault;
+                }
+                else head.enabled = false;
+            }
+
+
             currentSelectedItem.SetForSell();
             inventoryManager.SellItem(currentSelectedItem.Item);
 
             soldItemButton.SetActive(false);
+            equipItemButton.SetActive(false);
             buyItemButton.SetActive(true);
+
+
+            EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
+        }
+
+        public void OnClickEquip()
+        {
+            if (currentSelectedItem == null || !currentSelectedItem) return;
+
+            if (currentSelectedItem.Item.Part == Enums.CustomizableParts.body)
+            {
+                body.sprite = currentSelectedItem.Item.ImageSprite;
+                body.color = currentSelectedItem.Item.PartColor;
+                previewBody.sprite = currentSelectedItem.Item.ImageSprite;
+                previewBody.color = currentSelectedItem.Item.PartColor;
+                bodyAnimator.runtimeAnimatorController = currentSelectedItem.Item.Animator;
+            }
+            else
+            {
+                head.sprite = currentSelectedItem.Item.ImageSprite;
+                head.color = currentSelectedItem.Item.PartColor;
+                previewHead.sprite = currentSelectedItem.Item.ImageSprite;
+                previewHead.color = currentSelectedItem.Item.PartColor;
+                headAnimator.runtimeAnimatorController = currentSelectedItem.Item.Animator;
+                previewHead.enabled = true;
+                head.enabled = true;
+            }
 
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
         }

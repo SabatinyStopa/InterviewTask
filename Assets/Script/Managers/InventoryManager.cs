@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using InterviewTask.Items;
-using UnityEngine;
 
 namespace InterviewTask.Managers
 {
@@ -47,6 +46,18 @@ namespace InterviewTask.Managers
                     break;
                 }
             }
+        }
+
+        public bool IsItemEquipped(Item item)
+        {
+            for (int i = 0; i < items.Count; i++)
+            {
+                var inventoryItem = items[i];
+
+                if (inventoryItem.Item == item) return true;
+            }
+
+            return false;
         }
     }
 }

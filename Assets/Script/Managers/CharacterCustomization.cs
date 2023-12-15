@@ -1,3 +1,4 @@
+using UnityEditor.Animations;
 using InterviewTask.Enums;
 using InterviewTask.Items;
 using UnityEngine.UI;
@@ -20,6 +21,9 @@ namespace InterviewTask.Managers
         [SerializeField] protected ItemUI itemUIPrefab;
         [SerializeField] protected Transform contentParent;
 
+        [SerializeField] protected Sprite bodyDefault;
+        [SerializeField] protected AnimatorController bodyAnimatorDefault;
+
         public virtual void Open() => OnEnable();
 
         protected void OnEnable()
@@ -38,20 +42,14 @@ namespace InterviewTask.Managers
             {
                 previewBody.sprite = item.ImageSprite;
                 previewBody.color = item.PartColor;
-                bodyAnimator.runtimeAnimatorController = item.Animator;
             }
             else if (item.Part == CustomizableParts.head)
             {
                 previewHead.color = item.PartColor;
                 previewHead.sprite = item.ImageSprite;
-                headAnimator.runtimeAnimatorController = item.Animator;
-            }
-        }
 
-        public virtual void SetSkin()
-        {
-            body.sprite = previewBody.sprite;
-            head.sprite = previewHead.sprite;
+                previewHead.enabled = true;
+            }
         }
     }
 }
