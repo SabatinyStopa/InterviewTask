@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using System;
 using TMPro;
 
 namespace InterviewTask.Managers
@@ -12,16 +13,13 @@ namespace InterviewTask.Managers
 
         private void Awake() => Instance = this;
 
-        private void Update()
+        public void PlayDialogue(string targetText, float timeAfterDialogue = 4, Action stopInteract = null)
         {
-            if (Input.GetKeyDown(KeyCode.H))
-            {
-                StopAllCoroutines();
-                StartCoroutine(PlayDialogue("Hello there, my name is jonas. And i love to test things"));
-            }
+            StopAllCoroutines();
+            StartCoroutine(StartDialogue(targetText, timeAfterDialogue, stopInteract));
         }
 
-        public IEnumerator PlayDialogue(string targetText, float timeAfterDialogue = 4)
+        private IEnumerator StartDialogue(string targetText, float timeAfterDialogue = 4, Action stopInteract = null)
         {
             dialogueText.text = string.Empty;
             dialogueText.enabled = true;
@@ -32,11 +30,12 @@ namespace InterviewTask.Managers
                 yield return new WaitForSeconds(0.02f);
                 dialogueText.text += targetText[counter];
                 counter++;
-                SoundManager.Instance.PlaySound(charSoundId[Random.Range(0, charSoundId.Length - 1)]);
+                SoundManager.Instance.PlaySound(charSoundId[UnityEngine.Random.Range(0, charSoundId.Length - 1)]);
             }
 
             yield return new WaitForSeconds(timeAfterDialogue);
             dialogueText.enabled = false;
+            stopInteract?.Invoke();
         }
     }
 }

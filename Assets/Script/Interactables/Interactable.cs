@@ -13,9 +13,17 @@ namespace InterviewTask.Interactables
             if (playerInRange && Input.GetKeyDown(KeyCode.E) && !isBusy) Interact();
         }
 
-        protected virtual void Interact() => isBusy = true;
+        protected virtual void Interact()
+        {
+            Player.Instance.HideCanInteractText();
+            isBusy = true;
+        }
 
-        protected virtual void StopInteract() => isBusy = false;
+        protected virtual void StopInteract()
+        {
+            if (playerInRange) Player.Instance.ShowCanInteractText();
+            isBusy = false;
+        }
 
         private void OnTriggerEnter2D(Collider2D other)
         {

@@ -1058,6 +1058,8 @@ GameObject:
   - component: {fileID: 192119196}
   - component: {fileID: 192119197}
   - component: {fileID: 192119198}
+  - component: {fileID: 192119199}
+  - component: {fileID: 192119200}
   m_Layer: 0
   m_Name: BlobPlayer_Pink_0
   m_TagString: Untagged
@@ -1169,6 +1171,50 @@ MonoBehaviour:
   - {fileID: 1218086008}
   speed: 0.5
   spriteRenderer: {fileID: 192119196}
+--- !u!114 &192119199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192119194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd465141826e464985761fe6317a73d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+  - Yeah!
+  - Hey! Yeah
+  - Uhul! I love walking
+  - I am fast
+  timeAfterDialogue: 2
+--- !u!61 &192119200
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192119194}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.74831164, y: 0.94698954}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.5, y: 1.6}
+    newSize: {x: 1.5, y: 1.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.410716, y: 6.918353}
+  m_EdgeRadius: 0
 --- !u!1 &213556263
 GameObject:
   m_ObjectHideFlags: 0
@@ -5283,7 +5329,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd465141826e464985761fe6317a73d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: I am grey and he is green. We love your clothes
+  text:
+  - I am grey!
+  - The door is closed, because we cannot go out
+  - The blue guy sells everything
+  - The guy over there loves costumes
+  - The wizard can give you coin
   timeAfterDialogue: 2
 --- !u!1001 &494619684
 PrefabInstance:
@@ -8446,7 +8497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7947911505737750448, guid: 84395be60ff2def43bb58fa039614eab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.356
+      value: -1.472
       objectReference: {fileID: 0}
     - target: {fileID: 7947911505737750448, guid: 84395be60ff2def43bb58fa039614eab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8766,7 +8817,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd465141826e464985761fe6317a73d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: Hello there!
+  text:
+  - I am from another world
+  - I lost my ship
+  - The mage can give you some coins
   timeAfterDialogue: 2
 --- !u!61 &1135515020
 BoxCollider2D:

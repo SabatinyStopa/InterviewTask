@@ -18,7 +18,7 @@ namespace InterviewTask.Interactables
             base.Interact();
             StartCoroutine(OpenPanel());
             animator.SetTrigger("Jump");
-            StartCoroutine(DialogueManager.Instance.PlayDialogue("Uhul! Someone will buy my things!"));
+            DialogueManager.Instance.PlayDialogue("Uhul! Someone will buy my things!");
         }
 
         private IEnumerator OpenPanel()
