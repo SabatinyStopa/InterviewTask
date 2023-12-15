@@ -1,8 +1,7 @@
 using InterviewTask.Enums;
 using InterviewTask.Items;
-using UnityEditor.Animations;
-using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 
 namespace InterviewTask.Managers
 {
@@ -21,19 +20,19 @@ namespace InterviewTask.Managers
         [SerializeField] protected ItemUI itemUIPrefab;
         [SerializeField] protected Transform contentParent;
 
-        public virtual void SetPreview(CustomizableParts part, AnimatorController controller, Color color, Sprite sprite)
+        public virtual void OnClickItem(Item item)
         {
-            if (part == CustomizableParts.body)
+            if (item.Part == CustomizableParts.body)
             {
-                previewBody.sprite = sprite;
-                previewBody.color = color;
-                bodyAnimator.runtimeAnimatorController = controller;
+                previewBody.sprite = item.ImageSprite;
+                previewBody.color = item.PartColor;
+                bodyAnimator.runtimeAnimatorController = item.Animator;
             }
-            else if (part == CustomizableParts.head)
+            else if (item.Part == CustomizableParts.head)
             {
-                previewHead.color = color;
-                previewHead.sprite = sprite;
-                headAnimator.runtimeAnimatorController = controller;
+                previewHead.color = item.PartColor;
+                previewHead.sprite = item.ImageSprite;
+                headAnimator.runtimeAnimatorController = item.Animator;
             }
         }
 

@@ -433,10 +433,10 @@ GameObject:
   - component: {fileID: 108412318732778478}
   - component: {fileID: 108412318732778477}
   - component: {fileID: 3204257523714368088}
-  - component: {fileID: 3175692349117064965}
   - component: {fileID: 8928020336059763968}
+  - component: {fileID: 7791437041015576316}
   m_Layer: 5
-  m_Name: Item
+  m_Name: InventoryItemUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,8 +518,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3175692349117064965}
-        m_TargetAssemblyTypeName: InterviewTask.Equipables.ItemUI, Assembly-CSharp
+      - m_Target: {fileID: 7791437041015576316}
+        m_TargetAssemblyTypeName: InterviewTask.Items.ItemUI, Assembly-CSharp
         m_MethodName: OnSelectItem
         m_Mode: 1
         m_Arguments:
@@ -530,21 +530,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3175692349117064965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108412318732778479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa53a8c4a415a364c84f75cec55afa6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainImage: {fileID: 108412317518293875}
-  itemName: {fileID: 108412317550059627}
-  itemValue: {fileID: 108412318108857041}
 --- !u!114 &8928020336059763968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,3 +560,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7791437041015576316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108412318732778479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efe605a398dde842a0af6b4fb6f2b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainImage: {fileID: 108412317518293875}
+  itemName: {fileID: 108412317550059627}
+  itemValue: {fileID: 108412318108857041}

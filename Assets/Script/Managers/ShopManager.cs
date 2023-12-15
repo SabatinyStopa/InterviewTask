@@ -7,6 +7,14 @@ namespace InterviewTask.Managers
     public class ShopManager : CharacterCustomization
     {
         [SerializeField] private ItemScriptable[] itemScriptables;
+
+        [SerializeField] private GameObject buyItemButton;
+        [SerializeField] private GameObject soldItemButton;
+        [SerializeField] private InventoryManager inventoryManager;
+
+
+        private ItemUI currentSelectedItem;
+
         private void Start() => GenerateCustomizableParts();
 
         public void GenerateCustomizableParts()
@@ -25,6 +33,36 @@ namespace InterviewTask.Managers
 
                 itemUi.SetItem(item, this);
             }
+        }
+
+        public void Select(ItemUI itemUI)
+        {
+            soldItemButton.SetActive(itemUI.IsSold);
+            buyItemButton.SetActive(!itemUI.IsSold);
+            currentSelectedItem = itemUI;
+        }
+
+        public void OnClickBuy()
+        {
+            if (currentSelectedItem == null || currentSelectedItem.IsSold) return;
+            if (inventoryManager.CurrentAmount >= float.Parse(currentSelectedItem.Item.Value))
+            {
+                currentSelectedItem.SetSold();
+                inventoryManager.BuyItem(currentSelectedItem.Item);
+                soldItemButton.SetActive(false);
+                buyItemButton.SetActive(false);
+            }
+        }
+
+        public void OnClickSell()
+        {
+            if (currentSelectedItem == null || !currentSelectedItem.IsSold) return;
+
+            currentSelectedItem.SetForSell();
+            inventoryManager.SellItem(currentSelectedItem.Item);
+
+            soldItemButton.SetActive(false);
+            buyItemButton.SetActive(false);
         }
     }
 }

@@ -1,7 +1,7 @@
+using InterviewTask.Managers;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
-using InterviewTask.Managers;
 
 namespace InterviewTask.Items
 {
@@ -11,8 +11,12 @@ namespace InterviewTask.Items
         [SerializeField] protected TextMeshProUGUI itemName;
         [SerializeField] protected TextMeshProUGUI itemValue;
 
+        private bool isSold = false;
         protected Item item;
         protected CharacterCustomization characterCustomizationManager;
+
+        public Item Item { get => item; }
+        public bool IsSold { get => isSold; set => isSold = value; }
 
         public void SetItem(Item item, CharacterCustomization characterCustomizationManager)
         {
@@ -26,6 +30,18 @@ namespace InterviewTask.Items
             this.characterCustomizationManager = characterCustomizationManager;
         }
 
-        public virtual void OnSelectItem() => characterCustomizationManager.SetPreview(item.Part, item.Animator, item.PartColor, item.ImageSprite);
+        public virtual void OnSelectItem() => characterCustomizationManager.OnClickItem(Item);
+
+        public void SetSold()
+        {
+            itemValue.text = "SOLD";
+            isSold = true;
+        }
+
+        public void SetForSell()
+        {
+            itemValue.text = item.Value;
+            isSold = false;
+        }
     }
 }
