@@ -8,6 +8,9 @@ namespace InterviewTask.Managers
     {
         private float currentAmount = 1000;
 
+        private Item currentHeadItem;
+        private Item currentBodyItem;
+
         struct InventoryItem
         {
             public Item Item;
@@ -16,6 +19,36 @@ namespace InterviewTask.Managers
 
         private List<InventoryItem> items = new List<InventoryItem>();
         public float CurrentAmount { get => currentAmount; }
+
+        private void Start()
+        {
+            OnEquipItem += SetCurrentEquip;
+            OnUnequipItem += RemoveCurrentEquip;
+        }
+
+        private void OnDestroy()
+        {
+            OnEquipItem -= SetCurrentEquip;
+            OnUnequipItem -= RemoveCurrentEquip;
+        }
+
+        private void SetCurrentEquip(Item item)
+        {
+            if (item.Part == Enums.CustomizableParts.body) currentBodyItem = item;
+            else currentHeadItem = item;
+        }
+
+        private void RemoveCurrentEquip(Item item)
+        {
+            if (item.Part == Enums.CustomizableParts.body) currentBodyItem = null;
+            else currentHeadItem = null;
+        }
+
+        public override void Open()
+        {
+            base.Open();
+            SetEquipped();
+        }
 
         private void Update()
         {
@@ -47,7 +80,7 @@ namespace InterviewTask.Managers
             {
                 var inventoryItem = items[i];
 
-                if (inventoryItem.Item == item)
+                if (inventoryItem.Item.Id == item.Id)
                 {
                     currentAmount += float.Parse(item.Value);
                     items.Remove(inventoryItem);
@@ -67,6 +100,29 @@ namespace InterviewTask.Managers
             }
 
             return false;
+        }
+
+        public override void OnClickEquip()
+        {
+            base.OnClickEquip();
+            SetEquipped();
+        }
+
+        public override void OnClickUnequip()
+        {
+            base.OnClickUnequip();
+            SetEquipped();
+        }
+
+        private void SetEquipped()
+        {
+            foreach (InventoryItem inventoryItem in items)
+            {
+                if (currentBodyItem != null && inventoryItem.Item.Id == currentBodyItem.Id || currentHeadItem != null && inventoryItem.Item.Id == currentHeadItem.Id)
+                    inventoryItem.ItemUI.SetValueText("EQUIPPED");
+                else
+                    inventoryItem.ItemUI.SetValueText("");
+            }
         }
     }
 }

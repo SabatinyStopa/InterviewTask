@@ -4,12 +4,15 @@ using InterviewTask.Enums;
 using InterviewTask.Items;
 using UnityEngine.UI;
 using UnityEngine;
+using System;
 
 namespace InterviewTask.Managers
 {
     public class CharacterCustomization : MonoBehaviour
     {
         public static bool IsOpen = false;
+        public static Action<Item> OnEquipItem;
+        public static Action<Item> OnUnequipItem;
 
         [SerializeField] protected GameObject panel;
         [Header("Preview")]
@@ -43,7 +46,9 @@ namespace InterviewTask.Managers
             panel.SetActive(false);
         }
 
-        protected void OnEnable()
+        protected void OnEnable() => SetPreviewToRealChar();
+
+        private void SetPreviewToRealChar()
         {
             previewBody.sprite = body.sprite;
             previewBody.color = body.color;
@@ -55,6 +60,8 @@ namespace InterviewTask.Managers
 
         public virtual void OnClickItem(Item item)
         {
+            SetPreviewToRealChar();
+
             if (item.Part == CustomizableParts.body)
             {
                 previewBody.sprite = item.ImageSprite;
@@ -92,6 +99,8 @@ namespace InterviewTask.Managers
                 head.enabled = true;
             }
 
+            OnEquipItem?.Invoke(currentSelectedItem.Item);
+
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
         }
 
@@ -112,6 +121,8 @@ namespace InterviewTask.Managers
                 previewHead.enabled = false;
                 head.enabled = false;
             }
+
+            OnUnequipItem?.Invoke(currentSelectedItem.Item);
 
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
         }
