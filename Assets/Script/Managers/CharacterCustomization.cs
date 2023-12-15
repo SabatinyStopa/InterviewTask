@@ -9,6 +9,9 @@ namespace InterviewTask.Managers
 {
     public class CharacterCustomization : MonoBehaviour
     {
+        public static bool IsOpen = false;
+
+        [SerializeField] protected GameObject panel;
         [Header("Preview")]
         [SerializeField] protected Image previewBody;
         [SerializeField] protected Image previewHead;
@@ -27,7 +30,19 @@ namespace InterviewTask.Managers
 
         protected ItemUI currentSelectedItem;
 
-        public virtual void Open() => OnEnable();
+        public virtual void Open()
+        {
+            IsOpen = true;
+            panel.SetActive(true);
+            OnEnable();
+
+        }
+
+        public virtual void Close()
+        {
+            IsOpen = false;
+            panel.SetActive(false);
+        }
 
         protected void OnEnable()
         {

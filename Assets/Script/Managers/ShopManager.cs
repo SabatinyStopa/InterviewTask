@@ -16,6 +16,11 @@ namespace InterviewTask.Managers
 
         private void Start() => GenerateCustomizableParts();
 
+        private void Update()
+        {
+            if(Input.GetKeyDown(KeyCode.Y) && !IsOpen) Open();
+        }
+
         public void GenerateCustomizableParts()
         {
             foreach (ItemScriptable itemScriptable in itemScriptables)

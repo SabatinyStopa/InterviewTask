@@ -38,6 +38,8 @@ namespace InterviewTask.Items
             isSold = true;
         }
 
+        public void SetValueText(string valueString) => itemValue.text = valueString;
+
         public void SetForSell()
         {
             itemValue.text = item.Value;

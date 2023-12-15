@@ -1,6 +1,6 @@
-using System;
 using System.Collections.Generic;
 using InterviewTask.Items;
+using UnityEngine;
 
 namespace InterviewTask.Managers
 {
@@ -17,6 +17,11 @@ namespace InterviewTask.Managers
         private List<InventoryItem> items = new List<InventoryItem>();
         public float CurrentAmount { get => currentAmount; }
 
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.T) && !IsOpen) Open();
+        }
+
         public void BuyItem(Item item)
         {
             currentAmount -= float.Parse(item.Value);
@@ -29,8 +34,11 @@ namespace InterviewTask.Managers
                 ItemUI = (InventoryItemUI)itemUi
             };
 
+
             items.Add(inventoryItem);
             itemUi.SetItem(newItem, this);
+
+            itemUi.SetValueText("");
         }
 
         public void SellItem(Item item)
@@ -41,7 +49,7 @@ namespace InterviewTask.Managers
 
                 if (inventoryItem.Item == item)
                 {
-                    currentAmount += float.Parse(inventoryItem.Item.Value);
+                    currentAmount += float.Parse(item.Value);
                     items.Remove(inventoryItem);
                     Destroy(inventoryItem.ItemUI.gameObject);
                     break;
