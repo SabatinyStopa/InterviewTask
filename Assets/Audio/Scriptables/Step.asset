@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Step
   m_EditorClassIdentifier: 
   Id: Step
-  AudioClip: {fileID: 8300000, guid: a35ec44331d4b514cabf31e928f058b5, type: 3}
+  AudioClip: {fileID: 8300000, guid: 9a5d307c7eebf164096d8f5f1fee5e32, type: 3}
   AudioMixer: {fileID: -9066548179963316326, guid: 9ede0b61a26427d45b55c3ed29d25aef, type: 2}
   Loop: 0
