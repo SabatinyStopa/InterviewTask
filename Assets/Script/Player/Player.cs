@@ -1,3 +1,4 @@
+using InterviewTask.Managers;
 using UnityEngine;
 
 namespace InterviewTask.Players
@@ -13,6 +14,8 @@ namespace InterviewTask.Players
 
         private void Update()
         {
+            if (CharacterCustomization.IsOpen) return;
+
             var horizontal = Input.GetAxis(horizontalAxisName);
             var vertical = Input.GetAxis(verticalAxisName);
             direction = new Vector3(horizontal, vertical, 0) * speed;

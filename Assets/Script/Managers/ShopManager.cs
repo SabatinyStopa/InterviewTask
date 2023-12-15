@@ -3,24 +3,20 @@ using UnityEngine.EventSystems;
 using InterviewTask.Items;
 using UnityEngine;
 using UnityEditor;
+using System;
 
 namespace InterviewTask.Managers
 {
     public class ShopManager : CharacterCustomization
     {
+        public static Action OnClose;
         [SerializeField] private ItemScriptable[] itemScriptables;
-
         [SerializeField] private GameObject buyItemButton;
         [SerializeField] private GameObject soldItemButton;
         [SerializeField] private GameObject equipItemButton;
         [SerializeField] private InventoryManager inventoryManager;
 
         private void Start() => GenerateCustomizableParts();
-
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Y) && !IsOpen) Open();
-        }
 
         public void GenerateCustomizableParts()
         {
@@ -29,7 +25,7 @@ namespace InterviewTask.Managers
                 var itemUi = Instantiate(itemUIPrefab, contentParent);
                 var item = new Item
                 {
-                    Name = "Item " + Random.Range(0, 1001),
+                    Name = "Item " + UnityEngine.Random.Range(0, 1001),
                     PartColor = itemScriptable.PartColor,
                     Animator = itemScriptable.Animator,
                     Value = itemScriptable.Value,
@@ -48,6 +44,12 @@ namespace InterviewTask.Managers
             soldItemButton.SetActive(itemUI.IsSold);
             equipItemButton.SetActive(itemUI.IsSold);
             buyItemButton.SetActive(!itemUI.IsSold);
+        }
+
+        public override void Close()
+        {
+            base.Close();
+            OnClose?.Invoke();
         }
 
         public void OnClickBuy()

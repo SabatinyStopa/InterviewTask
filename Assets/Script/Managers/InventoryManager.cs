@@ -52,7 +52,7 @@ namespace InterviewTask.Managers
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.T) && !IsOpen) Open();
+            if (Input.GetKeyDown(KeyCode.I) && !IsOpen) Open();
         }
 
         public void BuyItem(Item item)
