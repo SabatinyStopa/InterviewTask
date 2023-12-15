@@ -4948,6 +4948,7 @@ Transform:
   - {fileID: 1144637051}
   - {fileID: 1448944194}
   - {fileID: 5412123055010135666}
+  - {fileID: 1396315902}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7021,6 +7022,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8228059593326255414, guid: 84d669757910f1f488023c92e71fcad5, type: 3}
   m_PrefabInstance: {fileID: 740202404}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1396315901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1396315902}
+  - component: {fileID: 1396315903}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1396315902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396315901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 711253671}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1396315903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396315901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c5ca262fd43324e98dfc2c4e0db172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1397838006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8966882846673388717, guid: 403080d7568a4f949b4bfc7128477a8c, type: 3}
@@ -7193,6 +7238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1526773756}
+  charSoundId:
+  - Type
 --- !u!4 &1452474901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8228059593326255414, guid: 84d669757910f1f488023c92e71fcad5, type: 3}
@@ -20259,8 +20306,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allScriptables:
-  - {fileID: 11400000, guid: b751ff4df21eefe41bf4c65c0c783464, type: 2}
-  - {fileID: 11400000, guid: 1c38f0057ba1e6449ad1928d4867c4b1, type: 2}
+  - {fileID: 11400000, guid: a0d16c43a5741f445ad07e5cde83c9a1, type: 2}
+  - {fileID: 11400000, guid: 1636e97a8a020964b94c916173a645fa, type: 2}
 --- !u!222 &5412123055048860370
 CanvasRenderer:
   m_ObjectHideFlags: 0

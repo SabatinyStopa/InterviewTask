@@ -32,6 +32,8 @@ namespace InterviewTask.Managers
             sound.loop = soundScriptable.Loop;
             sound.outputAudioMixerGroup = soundScriptable.AudioMixer;
 
+            sound.transform.SetParent(transform);
+
             sound.Play();
 
             Destroy(sound.gameObject, soundScriptable.AudioClip.length + 0.01f);

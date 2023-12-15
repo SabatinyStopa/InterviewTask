@@ -8,6 +8,7 @@ namespace InterviewTask.Managers
     {
         public static DialogueManager Instance;
         [SerializeField] private TextMeshProUGUI dialogueText;
+        [SerializeField] private string[] charSoundId;
 
         private void Awake() => Instance = this;
 
@@ -31,6 +32,7 @@ namespace InterviewTask.Managers
                 yield return new WaitForSeconds(0.02f);
                 dialogueText.text += targetText[counter];
                 counter++;
+                SoundManager.Instance.PlaySound(charSoundId[Random.Range(0, charSoundId.Length - 1)]);
             }
 
             yield return new WaitForSeconds(4f);
