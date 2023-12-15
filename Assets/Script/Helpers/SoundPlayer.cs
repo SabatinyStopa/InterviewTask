@@ -7,6 +7,9 @@ namespace InterviewTask.Helpers
     {
         [SerializeField] private string[] soundsToPlay;
 
-        public void PlayRandomSound() => SoundManager.Instance.PlaySound(soundsToPlay[Random.Range(0, soundsToPlay.Length - 1)]);
+        public void PlayRandomSound()
+        {
+            SoundManager.Instance.PlaySound(soundsToPlay[Random.Range(0, soundsToPlay.Length - 1)]);
+        }
     }
 }

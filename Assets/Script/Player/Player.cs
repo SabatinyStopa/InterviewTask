@@ -16,8 +16,8 @@ namespace InterviewTask.Players
         {
             if (CharacterCustomization.IsOpen) return;
 
-            var horizontal = Input.GetAxis(horizontalAxisName);
-            var vertical = Input.GetAxis(verticalAxisName);
+            var horizontal = Input.GetAxisRaw(horizontalAxisName);
+            var vertical = Input.GetAxisRaw(verticalAxisName);
             direction = new Vector3(horizontal, vertical, 0) * speed;
 
             foreach (Animator animator in animators)

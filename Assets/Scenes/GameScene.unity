@@ -7066,6 +7066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c5ca262fd43324e98dfc2c4e0db172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeImage: {fileID: 0}
 --- !u!4 &1397838006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8966882846673388717, guid: 403080d7568a4f949b4bfc7128477a8c, type: 3}
@@ -7345,7 +7346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 49.4489, y: 0}
+  m_AnchoredPosition: {x: 49.448975, y: 0}
   m_SizeDelta: {x: -357.553, y: 167.9164}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1526773756
@@ -14894,6 +14895,7 @@ GameObject:
   - component: {fileID: 2052840871}
   - component: {fileID: 2052840873}
   - component: {fileID: 2052840874}
+  - component: {fileID: 2052840875}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -15057,6 +15059,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13924453, y: 0.29692918}
   m_EdgeRadius: 0
+--- !u!114 &2052840875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052840868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2bc21e459eeb854bb744e352a8c1cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundsToPlay:
+  - Step
 --- !u!4 &2069023123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8228059593326255414, guid: 84d669757910f1f488023c92e71fcad5, type: 3}
@@ -20308,6 +20324,7 @@ MonoBehaviour:
   allScriptables:
   - {fileID: 11400000, guid: a0d16c43a5741f445ad07e5cde83c9a1, type: 2}
   - {fileID: 11400000, guid: 1636e97a8a020964b94c916173a645fa, type: 2}
+  - {fileID: 11400000, guid: a5358ab658e713649b11de00e53bc0cf, type: 2}
 --- !u!222 &5412123055048860370
 CanvasRenderer:
   m_ObjectHideFlags: 0
