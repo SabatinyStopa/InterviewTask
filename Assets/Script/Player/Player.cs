@@ -19,6 +19,7 @@ namespace InterviewTask.Players
 
             foreach (Animator animator in animators)
             {
+                if (!animator.gameObject.activeInHierarchy) continue;
                 animator.SetFloat(horizontalAxisName, horizontal);
                 animator.SetFloat(verticalAxisName, vertical);
             }
