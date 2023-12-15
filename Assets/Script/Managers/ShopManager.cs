@@ -2,6 +2,7 @@ using InterviewTask.Scriptables;
 using UnityEngine.EventSystems;
 using InterviewTask.Items;
 using UnityEngine;
+using UnityEditor;
 
 namespace InterviewTask.Managers
 {
@@ -18,7 +19,7 @@ namespace InterviewTask.Managers
 
         private void Update()
         {
-            if(Input.GetKeyDown(KeyCode.Y) && !IsOpen) Open();
+            if (Input.GetKeyDown(KeyCode.Y) && !IsOpen) Open();
         }
 
         public void GenerateCustomizableParts()
@@ -33,7 +34,8 @@ namespace InterviewTask.Managers
                     Animator = itemScriptable.Animator,
                     Value = itemScriptable.Value,
                     ImageSprite = itemScriptable.ImageSprite,
-                    Part = itemScriptable.Part
+                    Part = itemScriptable.Part,
+                    Id = itemScriptable.Id
                 };
 
                 itemUi.SetItem(item, this);
@@ -87,6 +89,17 @@ namespace InterviewTask.Managers
             buyItemButton.SetActive(true);
 
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
+        }
+
+        [ContextMenu("Set Id for scriptables")]
+        private void SetIdForScriptables()
+        {
+            for (int i = 0; i < itemScriptables.Length; i++)
+            {
+                var itemScriptable = itemScriptables[i];
+                itemScriptable.Id = i + 1;
+                EditorUtility.SetDirty(itemScriptable);
+            }
         }
     }
 }

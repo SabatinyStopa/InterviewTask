@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dde207ad233c6143bab349a61a6832f, type: 3}
   m_Name: Hat1 4
   m_EditorClassIdentifier: 
+  Id: 34
   Part: 1
   PartColor: {r: 0.4567116, g: 0.6981132, b: 0.43796724, a: 1}
   Name: e

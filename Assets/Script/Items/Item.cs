@@ -6,6 +6,7 @@ namespace InterviewTask.Items
 {
     public class Item
     {
+        public int Id;
         public CustomizableParts Part;
         public Color PartColor;
         public string Name;
@@ -25,6 +26,7 @@ namespace InterviewTask.Items
             Value = item.Value;
             ImageSprite = item.ImageSprite;
             Animator = item.Animator;
+            Id = item.Id;
         }
     }
 }

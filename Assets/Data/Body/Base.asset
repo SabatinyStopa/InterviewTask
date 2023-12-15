@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dde207ad233c6143bab349a61a6832f, type: 3}
   m_Name: Base
   m_EditorClassIdentifier: 
+  Id: 5
   Part: 0
   PartColor: {r: 1, g: 1, b: 1, a: 1}
   Name: Basic pant

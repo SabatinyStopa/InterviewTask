@@ -35,7 +35,6 @@ namespace InterviewTask.Managers
             IsOpen = true;
             panel.SetActive(true);
             OnEnable();
-
         }
 
         public virtual void Close()
