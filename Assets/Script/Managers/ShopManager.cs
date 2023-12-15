@@ -1,4 +1,5 @@
 using InterviewTask.Scriptables;
+using UnityEngine.EventSystems;
 using InterviewTask.Items;
 using UnityEngine;
 
@@ -11,7 +12,6 @@ namespace InterviewTask.Managers
         [SerializeField] private GameObject buyItemButton;
         [SerializeField] private GameObject soldItemButton;
         [SerializeField] private InventoryManager inventoryManager;
-
 
         private ItemUI currentSelectedItem;
 
@@ -40,6 +40,20 @@ namespace InterviewTask.Managers
             soldItemButton.SetActive(itemUI.IsSold);
             buyItemButton.SetActive(!itemUI.IsSold);
             currentSelectedItem = itemUI;
+
+            if (itemUI.Item.Part == Enums.CustomizableParts.body)
+            {
+                previewHead.sprite = head.sprite;
+                previewHead.color = head.color;
+
+                previewHead.enabled = head.enabled;
+            }
+            else
+            {
+                previewBody.sprite = body.sprite;
+                previewBody.color = body.color;
+                previewHead.enabled = true;
+            }
         }
 
         public void OnClickBuy()
@@ -49,8 +63,10 @@ namespace InterviewTask.Managers
             {
                 currentSelectedItem.SetSold();
                 inventoryManager.BuyItem(currentSelectedItem.Item);
-                soldItemButton.SetActive(false);
+                soldItemButton.SetActive(true);
                 buyItemButton.SetActive(false);
+
+                EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
             }
         }
 
@@ -62,7 +78,9 @@ namespace InterviewTask.Managers
             inventoryManager.SellItem(currentSelectedItem.Item);
 
             soldItemButton.SetActive(false);
-            buyItemButton.SetActive(false);
+            buyItemButton.SetActive(true);
+
+            EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
         }
     }
 }

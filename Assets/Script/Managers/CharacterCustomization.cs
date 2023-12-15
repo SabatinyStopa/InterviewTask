@@ -20,6 +20,18 @@ namespace InterviewTask.Managers
         [SerializeField] protected ItemUI itemUIPrefab;
         [SerializeField] protected Transform contentParent;
 
+        public virtual void Open() => OnEnable();
+
+        protected void OnEnable()
+        {
+            previewBody.sprite = body.sprite;
+            previewBody.color = body.color;
+
+            previewHead.sprite = head.sprite;
+            previewHead.color = head.color;
+            previewHead.enabled = head.enabled;
+        }
+
         public virtual void OnClickItem(Item item)
         {
             if (item.Part == CustomizableParts.body)

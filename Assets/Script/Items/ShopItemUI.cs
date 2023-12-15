@@ -8,7 +8,6 @@ namespace InterviewTask.Items
         {
             base.OnSelectItem();
             ((ShopManager)characterCustomizationManager).Select(this);
-
         }
     }
 }
