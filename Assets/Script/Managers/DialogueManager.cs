@@ -21,7 +21,7 @@ namespace InterviewTask.Managers
             }
         }
 
-        public IEnumerator PlayDialogue(string targetText)
+        public IEnumerator PlayDialogue(string targetText, float timeAfterDialogue = 4)
         {
             dialogueText.text = string.Empty;
             dialogueText.enabled = true;
@@ -35,7 +35,7 @@ namespace InterviewTask.Managers
                 SoundManager.Instance.PlaySound(charSoundId[Random.Range(0, charSoundId.Length - 1)]);
             }
 
-            yield return new WaitForSeconds(4f);
+            yield return new WaitForSeconds(timeAfterDialogue);
             dialogueText.enabled = false;
         }
     }
