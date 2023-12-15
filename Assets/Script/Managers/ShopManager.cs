@@ -14,8 +14,6 @@ namespace InterviewTask.Managers
         [SerializeField] private GameObject equipItemButton;
         [SerializeField] private InventoryManager inventoryManager;
 
-        private ItemUI currentSelectedItem;
-
         private void Start() => GenerateCustomizableParts();
 
         public void GenerateCustomizableParts()
@@ -23,25 +21,26 @@ namespace InterviewTask.Managers
             foreach (ItemScriptable itemScriptable in itemScriptables)
             {
                 var itemUi = Instantiate(itemUIPrefab, contentParent);
-                var item = new Item();
-
-                item.Name = "Item " + Random.Range(0, 1001);
-                item.PartColor = itemScriptable.PartColor;
-                item.Animator = itemScriptable.Animator;
-                item.Value = itemScriptable.Value;
-                item.ImageSprite = itemScriptable.ImageSprite;
-                item.Part = itemScriptable.Part;
+                var item = new Item
+                {
+                    Name = "Item " + Random.Range(0, 1001),
+                    PartColor = itemScriptable.PartColor,
+                    Animator = itemScriptable.Animator,
+                    Value = itemScriptable.Value,
+                    ImageSprite = itemScriptable.ImageSprite,
+                    Part = itemScriptable.Part
+                };
 
                 itemUi.SetItem(item, this);
             }
         }
 
-        public void Select(ItemUI itemUI)
+        public override void Select(ItemUI itemUI)
         {
+            base.Select(itemUI);
             soldItemButton.SetActive(itemUI.IsSold);
             equipItemButton.SetActive(itemUI.IsSold);
             buyItemButton.SetActive(!itemUI.IsSold);
-            currentSelectedItem = itemUI;
         }
 
         public void OnClickBuy()
@@ -75,40 +74,12 @@ namespace InterviewTask.Managers
                 else head.enabled = false;
             }
 
-
             currentSelectedItem.SetForSell();
             inventoryManager.SellItem(currentSelectedItem.Item);
 
             soldItemButton.SetActive(false);
             equipItemButton.SetActive(false);
             buyItemButton.SetActive(true);
-
-
-            EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
-        }
-
-        public void OnClickEquip()
-        {
-            if (currentSelectedItem == null || !currentSelectedItem) return;
-
-            if (currentSelectedItem.Item.Part == Enums.CustomizableParts.body)
-            {
-                body.sprite = currentSelectedItem.Item.ImageSprite;
-                body.color = currentSelectedItem.Item.PartColor;
-                previewBody.sprite = currentSelectedItem.Item.ImageSprite;
-                previewBody.color = currentSelectedItem.Item.PartColor;
-                bodyAnimator.runtimeAnimatorController = currentSelectedItem.Item.Animator;
-            }
-            else
-            {
-                head.sprite = currentSelectedItem.Item.ImageSprite;
-                head.color = currentSelectedItem.Item.PartColor;
-                previewHead.sprite = currentSelectedItem.Item.ImageSprite;
-                previewHead.color = currentSelectedItem.Item.PartColor;
-                headAnimator.runtimeAnimatorController = currentSelectedItem.Item.Animator;
-                previewHead.enabled = true;
-                head.enabled = true;
-            }
 
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
         }

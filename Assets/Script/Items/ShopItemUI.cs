@@ -1,5 +1,3 @@
-using InterviewTask.Managers;
-
 namespace InterviewTask.Items
 {
     public class ShopItemUI : ItemUI
@@ -7,7 +5,7 @@ namespace InterviewTask.Items
         public override void OnSelectItem()
         {
             base.OnSelectItem();
-            ((ShopManager)characterCustomizationManager).Select(this);
+            characterCustomizationManager.Select(this);
         }
     }
 }

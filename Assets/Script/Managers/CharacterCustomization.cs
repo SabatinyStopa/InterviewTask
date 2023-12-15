@@ -1,3 +1,4 @@
+using UnityEngine.EventSystems;
 using UnityEditor.Animations;
 using InterviewTask.Enums;
 using InterviewTask.Items;
@@ -23,6 +24,8 @@ namespace InterviewTask.Managers
 
         [SerializeField] protected Sprite bodyDefault;
         [SerializeField] protected AnimatorController bodyAnimatorDefault;
+
+        protected ItemUI currentSelectedItem;
 
         public virtual void Open() => OnEnable();
 
@@ -51,5 +54,54 @@ namespace InterviewTask.Managers
                 previewHead.enabled = true;
             }
         }
+
+        public virtual void OnClickEquip()
+        {
+            if (currentSelectedItem == null || !currentSelectedItem) return;
+
+            if (currentSelectedItem.Item.Part == CustomizableParts.body)
+            {
+                body.sprite = currentSelectedItem.Item.ImageSprite;
+                body.color = currentSelectedItem.Item.PartColor;
+                previewBody.sprite = currentSelectedItem.Item.ImageSprite;
+                previewBody.color = currentSelectedItem.Item.PartColor;
+                bodyAnimator.runtimeAnimatorController = currentSelectedItem.Item.Animator;
+            }
+            else
+            {
+                head.sprite = currentSelectedItem.Item.ImageSprite;
+                head.color = currentSelectedItem.Item.PartColor;
+                previewHead.sprite = currentSelectedItem.Item.ImageSprite;
+                previewHead.color = currentSelectedItem.Item.PartColor;
+                headAnimator.runtimeAnimatorController = currentSelectedItem.Item.Animator;
+                previewHead.enabled = true;
+                head.enabled = true;
+            }
+
+            EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
+        }
+
+        public virtual void OnClickUnequip()
+        {
+            if (currentSelectedItem == null || !currentSelectedItem) return;
+
+            if (currentSelectedItem.Item.Part == CustomizableParts.body)
+            {
+                body.sprite = bodyDefault;
+                body.color = Color.white;
+                previewBody.sprite = bodyDefault;
+                previewBody.color = Color.white;
+                bodyAnimator.runtimeAnimatorController = bodyAnimatorDefault;
+            }
+            else
+            {
+                previewHead.enabled = false;
+                head.enabled = false;
+            }
+
+            EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
+        }
+
+        public virtual void Select(ItemUI itemUI) => currentSelectedItem = itemUI;
     }
 }
