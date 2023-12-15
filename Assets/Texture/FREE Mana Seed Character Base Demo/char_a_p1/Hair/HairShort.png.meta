@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_0
+      name: HairShort_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93566bb2ee656f847b9dccf17ba2c637
-      internalID: 1133279087
+      spriteID: 2c5a531fb6935e6499e6b1e4a3ab5c4f
+      internalID: -779164754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_1
+      name: HairShort_1
       rect:
         serializedVersion: 2
         x: 64
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c97962263c9c5874a9ddcfe1dda369fa
-      internalID: -2055596680
+      spriteID: 585e1a8d77d50f0419c2b0ab0394eb54
+      internalID: -1088631597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_2
+      name: HairShort_2
       rect:
         serializedVersion: 2
         x: 128
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41969c8f4e4be8147abba797c41448a3
-      internalID: 313365975
+      spriteID: cc4dbb4414bb98a4c86b64100f744138
+      internalID: -94606975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_3
+      name: HairShort_3
       rect:
         serializedVersion: 2
         x: 192
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05189377fd4b23c44ac3b375416db877
-      internalID: 1645307631
+      spriteID: e52945137ef43b44ba5ff4230d8cfe4a
+      internalID: 307806494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_4
+      name: HairShort_4
       rect:
         serializedVersion: 2
         x: 256
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fa8644e635e76d44bd5980db544069d
-      internalID: 2033544338
+      spriteID: bd3be93364117cb489e2ee52f5083c85
+      internalID: 285956518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_5
+      name: HairShort_5
       rect:
         serializedVersion: 2
         x: 320
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d92a1d083f28d374f83d478588a30160
-      internalID: -458521055
+      spriteID: 75e5cb8075b7d0543b8ac2527663d7f7
+      internalID: 375216596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_6
+      name: HairShort_6
       rect:
         serializedVersion: 2
         x: 384
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25a1554987034c841804299d0780f872
-      internalID: 1037454687
+      spriteID: 5b79c20c9099d1e49b896d2f146339de
+      internalID: -1333325396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_7
+      name: HairShort_7
       rect:
         serializedVersion: 2
         x: 448
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 807427d44059a134eba60ed5bda4c9f7
-      internalID: 2083946753
+      spriteID: 66e2f1f69367fd7438f8e337c971d898
+      internalID: -109256812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_8
+      name: HairShort_8
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c49c7153e5985184da8c35bff9499d43
-      internalID: 1850300884
+      spriteID: 30859bde93e921a49a018a543b47a98f
+      internalID: -1109231920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_9
+      name: HairShort_9
       rect:
         serializedVersion: 2
         x: 64
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36cd1a818d1a78d479289869c077f358
-      internalID: 993323000
+      spriteID: eb49f4f684b63e94895cd2431785d76d
+      internalID: -719600825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_10
+      name: HairShort_10
       rect:
         serializedVersion: 2
         x: 128
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0406ce812238219448058b5d0b19135c
-      internalID: 508628950
+      spriteID: bf9e51868890e9342900c7f4e0023667
+      internalID: 1643353099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_11
+      name: HairShort_11
       rect:
         serializedVersion: 2
         x: 192
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61428882aa1c6554cae9781ef765eb45
-      internalID: -425867113
+      spriteID: dc2e5832df0c9344caa007851823cd66
+      internalID: 947787273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_12
+      name: HairShort_12
       rect:
         serializedVersion: 2
         x: 256
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd04ce9bf3ebf704fb3d1ffa78263e76
-      internalID: 99320928
+      spriteID: ad24d70dc62c8fa4fa8ac2e39acaf0b8
+      internalID: 425089052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_13
+      name: HairShort_13
       rect:
         serializedVersion: 2
         x: 320
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a17654a589b4d1d41982644967161875
-      internalID: 1952709953
+      spriteID: 11a9df164ee80cd4a82ec742d61e85ab
+      internalID: -2110472370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_14
+      name: HairShort_14
       rect:
         serializedVersion: 2
         x: 384
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de9832088f46d064ca68412dbffac5c3
-      internalID: -248882650
+      spriteID: 489586b013677c8498bb9d0291175a11
+      internalID: -1396805327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_15
+      name: HairShort_15
       rect:
         serializedVersion: 2
         x: 448
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4782f99d34470b46a51dcfc6cc6ca10
-      internalID: -1734145655
+      spriteID: 4dac5b06c0a656e4eb642dff0f7950dd
+      internalID: -1836650642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_16
+      name: HairShort_16
       rect:
         serializedVersion: 2
         x: 0
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4567092245ff1254db9fbe0fc90b6d20
-      internalID: 1832469397
+      spriteID: 84af5730ee7c9e2409cec784fcbd5972
+      internalID: -1085049015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_17
+      name: HairShort_17
       rect:
         serializedVersion: 2
         x: 64
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eebbd1279bee275488f75beba9806689
-      internalID: 325895925
+      spriteID: 45c66eb02a9ecfc4ea07fdfc900f3d05
+      internalID: -1875508471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_18
+      name: HairShort_18
       rect:
         serializedVersion: 2
         x: 128
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad7f5309f4878f346a6aabc8fbe39ad7
-      internalID: -1908948
+      spriteID: bcde760989388d64a8232c2985caee58
+      internalID: -436447691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_19
+      name: HairShort_19
       rect:
         serializedVersion: 2
         x: 192
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8981a7ed3ba2a454798edcd1b86231f6
-      internalID: 414197555
+      spriteID: c5c97778f238b6f4f88c16a5508eb165
+      internalID: 901723277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_20
+      name: HairShort_20
       rect:
         serializedVersion: 2
         x: 256
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa8fb3c02dc7ad4aada4fbc1836520e
-      internalID: -319531220
+      spriteID: 236cd56a2bfcbf94d87d289765e12779
+      internalID: 1695330951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_21
+      name: HairShort_21
       rect:
         serializedVersion: 2
         x: 320
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b8026458b91bfa47bf8ba689fce1720
-      internalID: -448095854
+      spriteID: 47bdead10ff1d2e46bbb7a113c47a17f
+      internalID: -1822728247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_22
+      name: HairShort_22
       rect:
         serializedVersion: 2
         x: 384
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f427c4d4f458364597a0c10f6e1cd30
-      internalID: -319167291
+      spriteID: 2334e92263b085d46b8331962c1a5787
+      internalID: 872271408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_23
+      name: HairShort_23
       rect:
         serializedVersion: 2
         x: 448
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da02c5fb58d49af47955b5efd3dd3e7f
-      internalID: -2044175374
+      spriteID: 7904f28b6cf5a37469a33daf7dd53808
+      internalID: 293412804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_24
+      name: HairShort_24
       rect:
         serializedVersion: 2
         x: 0
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66416162724579947ba9649dfa54b261
-      internalID: -483096843
+      spriteID: 3b260269c2c87a74bb941387013f8744
+      internalID: -1670380188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_25
+      name: HairShort_25
       rect:
         serializedVersion: 2
         x: 64
@@ -643,14 +643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d94a4f2a135bbc54892602e7cbaa6e51
-      internalID: -1077918772
+      spriteID: 67de422ea853c6d4ea582e711d95fc81
+      internalID: -2096350445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_26
+      name: HairShort_26
       rect:
         serializedVersion: 2
         x: 128
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c8ff52a71ea8c34181899747730d39e
-      internalID: -1569393661
+      spriteID: df9e6bc7d0c6c8f47ac9b20336997cca
+      internalID: 1111785060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_27
+      name: HairShort_27
       rect:
         serializedVersion: 2
         x: 192
@@ -685,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f52602303f6e0d647ae3e930667ae109
-      internalID: -1650462403
+      spriteID: 47f963f3d2d852a4b8f0b5d19e29b330
+      internalID: -1841117233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_28
+      name: HairShort_28
       rect:
         serializedVersion: 2
         x: 256
@@ -706,14 +706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e81825c265d01a4fb6f9232ac904031
-      internalID: -248477817
+      spriteID: 55940014c449b214f9c7d4a872958da8
+      internalID: 848052873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_29
+      name: HairShort_29
       rect:
         serializedVersion: 2
         x: 320
@@ -727,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b970e2471058bd04698598945700a40c
-      internalID: -417443995
+      spriteID: 8add889b8ffda5141b7b7cf4847a888f
+      internalID: 1131837125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_30
+      name: HairShort_30
       rect:
         serializedVersion: 2
         x: 384
@@ -748,14 +748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79628cc4d017ab64a8135b9cb7edcf65
-      internalID: 1511448431
+      spriteID: 18896a7e844d7254396cbfc2df7c7708
+      internalID: -155946857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_31
+      name: HairShort_31
       rect:
         serializedVersion: 2
         x: 448
@@ -769,14 +769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83e2cc2903cdd6e439da415986948a57
-      internalID: -1279936905
+      spriteID: ef79c482120d62f48bf21caf77e9c217
+      internalID: -513052880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_32
+      name: HairShort_32
       rect:
         serializedVersion: 2
         x: 0
@@ -790,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8061f4594f1f49488c956811a576124
-      internalID: 417706042
+      spriteID: 187d0a82f8d17c1439f61bd7f60dd36e
+      internalID: 194276762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_33
+      name: HairShort_33
       rect:
         serializedVersion: 2
         x: 64
@@ -811,14 +811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b933cd342678ed144980a56f72413e9f
-      internalID: 708765198
+      spriteID: eafbf4ca1ee7a4645aeeced88cb922d9
+      internalID: -549447202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_34
+      name: HairShort_34
       rect:
         serializedVersion: 2
         x: 128
@@ -832,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2e7e25d3cd558745987cb71f039c357
-      internalID: -722368604
+      spriteID: fb6adacd661b62d4381f56b23ffcef88
+      internalID: 390663641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_35
+      name: HairShort_35
       rect:
         serializedVersion: 2
         x: 192
@@ -853,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f010847ad3769964d892103a7443a5d2
-      internalID: -464115928
+      spriteID: 02ecf09fd5c9c6a438e5803ede11aa7f
+      internalID: 635455231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_36
+      name: HairShort_36
       rect:
         serializedVersion: 2
         x: 256
@@ -874,14 +874,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699e28ab24607c94e9ee5dd1499b57f1
-      internalID: 2047655838
+      spriteID: 8d0c50ecb388c6f41bfa612f9f39faf4
+      internalID: 1690276135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_37
+      name: HairShort_37
       rect:
         serializedVersion: 2
         x: 320
@@ -895,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e632fdf67c376a40a05462c5799dfd0
-      internalID: 1632983046
+      spriteID: 90a6bcc031676db40a70acaccdc13670
+      internalID: 466450282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_38
+      name: HairShort_38
       rect:
         serializedVersion: 2
         x: 384
@@ -916,14 +916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50442df68f56f2f44b033e707adc74d1
-      internalID: 816879546
+      spriteID: ad33e4495dbecdd4699a9136ce6455da
+      internalID: -139097659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_39
+      name: HairShort_39
       rect:
         serializedVersion: 2
         x: 448
@@ -937,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ec44a700a6289f4988fa541dffe31f1
-      internalID: -1133608137
+      spriteID: 857bba9379a6ba54ebdda806571b3ee4
+      internalID: 113581964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_40
+      name: HairShort_40
       rect:
         serializedVersion: 2
         x: 0
@@ -958,14 +958,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d509ccebe2b2730458614ddbabc4dcd1
-      internalID: -1565091860
+      spriteID: 3386ddc42290d65489ac082c447f1e7e
+      internalID: 792889169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_41
+      name: HairShort_41
       rect:
         serializedVersion: 2
         x: 64
@@ -979,14 +979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 487bc6dd3f2291f47852342c57021e72
-      internalID: 1914356633
+      spriteID: 90f6ccd924f957b4cb07d438f5f8542d
+      internalID: 1680859604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_42
+      name: HairShort_42
       rect:
         serializedVersion: 2
         x: 128
@@ -1000,14 +1000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 860182cb228a9e74a9260a5223a61bfe
-      internalID: 1045145002
+      spriteID: ff871e733c2fb0f4f8a5f8bee424d7d2
+      internalID: 1555860925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_43
+      name: HairShort_43
       rect:
         serializedVersion: 2
         x: 192
@@ -1021,14 +1021,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25a103e3d28a9314795bf78e09d68dc6
-      internalID: 1510713932
+      spriteID: 167fb95b5839aa0469dc1bf1a75a7a46
+      internalID: -1406977860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_44
+      name: HairShort_44
       rect:
         serializedVersion: 2
         x: 256
@@ -1042,14 +1042,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a910769b8d76ac94488101215bfb2817
-      internalID: -393924613
+      spriteID: 3c9c9b576005965489fd687381af7231
+      internalID: 1474510825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_45
+      name: HairShort_45
       rect:
         serializedVersion: 2
         x: 320
@@ -1063,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d959e2360fbec9d4b9fddc3836fd0722
-      internalID: 76883573
+      spriteID: 8d3d7dc5a8f63fc408a2266dc55f6022
+      internalID: 1054097310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_46
+      name: HairShort_46
       rect:
         serializedVersion: 2
         x: 384
@@ -1084,14 +1084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7da7fcb5a7becf41b47ddec248e6f38
-      internalID: 616838213
+      spriteID: f46add13b7f96084faa10d525af8ac46
+      internalID: -42844690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_47
+      name: HairShort_47
       rect:
         serializedVersion: 2
         x: 448
@@ -1105,14 +1105,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0039b0d018b778a40adc28850794b869
-      internalID: -891033543
+      spriteID: f23196647ac17c0418c4d0f9fb42ee90
+      internalID: 719774542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_48
+      name: HairShort_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1126,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439e9dc0b78942648893853be5492801
-      internalID: 853723201
+      spriteID: edb76764f8af383419e06fd9de9650f8
+      internalID: 750240825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_49
+      name: HairShort_49
       rect:
         serializedVersion: 2
         x: 64
@@ -1147,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed8880be77bc0cf45882d4cb2101bb08
-      internalID: -1405807606
+      spriteID: 5908d57d2a65fca46a3033c2fd09d4d9
+      internalID: -840157150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_50
+      name: HairShort_50
       rect:
         serializedVersion: 2
         x: 128
@@ -1168,14 +1168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ae9833399331884aa86e3d611fdcb88
-      internalID: -1331787155
+      spriteID: 1c52c32427b024041b2d17971ae1076d
+      internalID: 1979615163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_51
+      name: HairShort_51
       rect:
         serializedVersion: 2
         x: 192
@@ -1189,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 979b23b32b68d394fb0140d1af212d55
-      internalID: -2083340546
+      spriteID: dc865f3c53380df40b63347287ce7d4e
+      internalID: -1406800236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_52
+      name: HairShort_52
       rect:
         serializedVersion: 2
         x: 256
@@ -1210,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1726651f7dd5e2741a6d5494594966e9
-      internalID: 1434782578
+      spriteID: a31b226f7424341499f9f0f13ec5536b
+      internalID: -95962645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_53
+      name: HairShort_53
       rect:
         serializedVersion: 2
         x: 320
@@ -1231,14 +1231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3165563282004254484ea70b6c89d98f
-      internalID: 92214189
+      spriteID: 1a8cd35673c674b48b92eab520919d9d
+      internalID: -684453024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_54
+      name: HairShort_54
       rect:
         serializedVersion: 2
         x: 384
@@ -1252,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e1bc8c52122ffe42b561cbadd689408
-      internalID: 1199587325
+      spriteID: 4a95283561ae7304b9dbb80a31697807
+      internalID: -511316130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_55
+      name: HairShort_55
       rect:
         serializedVersion: 2
         x: 448
@@ -1273,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd4b535b204f5914fab0762bbceda6dd
-      internalID: 1704533998
+      spriteID: 2553550fd3423f0408608deed16e2b99
+      internalID: -605025870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_56
+      name: HairShort_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1294,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d5ee05e7de28584ebdf034219a4fb18
-      internalID: 1623032341
+      spriteID: 5a92cae56f8950b4fa9dfbf84d2c7662
+      internalID: 1340208864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_57
+      name: HairShort_57
       rect:
         serializedVersion: 2
         x: 64
@@ -1315,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdb08681f212dc44eb310df8e919f8c7
-      internalID: 339727707
+      spriteID: cd46e0c6f1b28e042a2fd3c225227bca
+      internalID: -1122495005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_58
+      name: HairShort_58
       rect:
         serializedVersion: 2
         x: 128
@@ -1336,14 +1336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9c479ac77a21e64e8dcc31573f46204
-      internalID: 1456321529
+      spriteID: 64fffd89079ffac4a9e3e93d97e1e73d
+      internalID: -1403851979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_59
+      name: HairShort_59
       rect:
         serializedVersion: 2
         x: 192
@@ -1357,14 +1357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf1330001f4c0344ea007877de299b27
-      internalID: 844408085
+      spriteID: 7b32c53ff0ce5704d9695fbc0dedbd2c
+      internalID: 678733573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_60
+      name: HairShort_60
       rect:
         serializedVersion: 2
         x: 256
@@ -1378,14 +1378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b568f72b6e92e21469ac97d4f32a4cd3
-      internalID: -336707160
+      spriteID: d555a35a856bd1e4e8700ef17ca8ed12
+      internalID: 270345408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_61
+      name: HairShort_61
       rect:
         serializedVersion: 2
         x: 320
@@ -1399,14 +1399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 102cf4247f15b8144baa99692ffc3d6e
-      internalID: -1746161860
+      spriteID: 0f7470aa871232748a6c90bb8ece368a
+      internalID: 969853928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_62
+      name: HairShort_62
       rect:
         serializedVersion: 2
         x: 384
@@ -1420,14 +1420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb5ede2badb37344ea6d344d3afc16a8
-      internalID: 81684892
+      spriteID: 2d38074f4da4bff41b3d677be224874a
+      internalID: -796850875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_63
+      name: HairShort_63
       rect:
         serializedVersion: 2
         x: 448
@@ -1441,8 +1441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5f139ebd1798e64b8cc0e025446cac8
-      internalID: -1201959621
+      spriteID: b9a25bb9a6fdb7e40afec674543f44e5
+      internalID: -2075175016
       vertices: []
       indices: 
       edges: []
@@ -1458,70 +1458,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_a_p1_4har_dap1_v01_52: 1434782578
-      char_a_p1_4har_dap1_v01_24: -483096843
-      char_a_p1_4har_dap1_v01_27: -1650462403
-      char_a_p1_4har_dap1_v01_57: 339727707
-      char_a_p1_4har_dap1_v01_0: 1133279087
-      char_a_p1_4har_dap1_v01_48: 853723201
-      char_a_p1_4har_dap1_v01_43: 1510713932
-      char_a_p1_4har_dap1_v01_61: -1746161860
-      char_a_p1_4har_dap1_v01_20: -319531220
-      char_a_p1_4har_dap1_v01_3: 1645307631
-      char_a_p1_4har_dap1_v01_18: -1908948
-      char_a_p1_4har_dap1_v01_5: -458521055
-      char_a_p1_4har_dap1_v01_19: 414197555
-      char_a_p1_4har_dap1_v01_1: -2055596680
-      char_a_p1_4har_dap1_v01_28: -248477817
-      char_a_p1_4har_dap1_v01_38: 816879546
-      char_a_p1_4har_dap1_v01_35: -464115928
-      char_a_p1_4har_dap1_v01_46: 616838213
-      char_a_p1_4har_dap1_v01_33: 708765198
-      char_a_p1_4har_dap1_v01_34: -722368604
-      char_a_p1_4har_dap1_v01_47: -891033543
-      char_a_p1_4har_dap1_v01_56: 1623032341
-      char_a_p1_4har_dap1_v01_30: 1511448431
-      char_a_p1_4har_dap1_v01_41: 1914356633
-      char_a_p1_4har_dap1_v01_7: 2083946753
-      char_a_p1_4har_dap1_v01_17: 325895925
-      char_a_p1_4har_dap1_v01_9: 993323000
-      char_a_p1_4har_dap1_v01_22: -319167291
-      char_a_p1_4har_dap1_v01_16: 1832469397
-      char_a_p1_4har_dap1_v01_44: -393924613
-      char_a_p1_4har_dap1_v01_40: -1565091860
-      char_a_p1_4har_dap1_v01_21: -448095854
-      char_a_p1_4har_dap1_v01_58: 1456321529
-      char_a_p1_4har_dap1_v01_37: 1632983046
-      char_a_p1_4har_dap1_v01_50: -1331787155
-      char_a_p1_4har_dap1_v01_29: -417443995
-      char_a_p1_4har_dap1_v01_11: -425867113
-      char_a_p1_4har_dap1_v01_60: -336707160
-      char_a_p1_4har_dap1_v01_62: 81684892
-      char_a_p1_4har_dap1_v01_8: 1850300884
-      char_a_p1_4har_dap1_v01_25: -1077918772
-      char_a_p1_4har_dap1_v01_55: 1704533998
-      char_a_p1_4har_dap1_v01_4: 2033544338
-      char_a_p1_4har_dap1_v01_32: 417706042
-      char_a_p1_4har_dap1_v01_15: -1734145655
-      char_a_p1_4har_dap1_v01_31: -1279936905
-      char_a_p1_4har_dap1_v01_63: -1201959621
-      char_a_p1_4har_dap1_v01_42: 1045145002
-      char_a_p1_4har_dap1_v01_53: 92214189
-      char_a_p1_4har_dap1_v01_45: 76883573
-      char_a_p1_4har_dap1_v01_51: -2083340546
-      char_a_p1_4har_dap1_v01_36: 2047655838
-      char_a_p1_4har_dap1_v01_54: 1199587325
-      char_a_p1_4har_dap1_v01_39: -1133608137
-      char_a_p1_4har_dap1_v01_10: 508628950
-      char_a_p1_4har_dap1_v01_14: -248882650
-      char_a_p1_4har_dap1_v01_2: 313365975
-      char_a_p1_4har_dap1_v01_12: 99320928
-      char_a_p1_4har_dap1_v01_49: -1405807606
-      char_a_p1_4har_dap1_v01_23: -2044175374
-      char_a_p1_4har_dap1_v01_59: 844408085
-      char_a_p1_4har_dap1_v01_26: -1569393661
-      char_a_p1_4har_dap1_v01_13: 1952709953
-      char_a_p1_4har_dap1_v01_6: 1037454687
+      HairShort_13: -2110472370
+      HairShort_11: 947787273
+      HairShort_48: 750240825
+      HairShort_5: 375216596
+      HairShort_53: -684453024
+      HairShort_10: 1643353099
+      HairShort_43: -1406977860
+      HairShort_50: 1979615163
+      HairShort_30: -155946857
+      HairShort_32: 194276762
+      HairShort_55: -605025870
+      HairShort_26: 1111785060
+      HairShort_63: -2075175016
+      HairShort_36: 1690276135
+      HairShort_18: -436447691
+      HairShort_40: 792889169
+      HairShort_19: 901723277
+      HairShort_45: 1054097310
+      HairShort_0: -779164754
+      HairShort_29: 1131837125
+      HairShort_44: 1474510825
+      HairShort_41: 1680859604
+      HairShort_58: -1403851979
+      HairShort_27: -1841117233
+      HairShort_31: -513052880
+      HairShort_49: -840157150
+      HairShort_59: 678733573
+      HairShort_2: -94606975
+      HairShort_16: -1085049015
+      HairShort_28: 848052873
+      HairShort_21: -1822728247
+      HairShort_23: 293412804
+      HairShort_9: -719600825
+      HairShort_56: 1340208864
+      HairShort_47: 719774542
+      HairShort_61: 969853928
+      HairShort_12: 425089052
+      HairShort_8: -1109231920
+      HairShort_1: -1088631597
+      HairShort_6: -1333325396
+      HairShort_20: 1695330951
+      HairShort_52: -95962645
+      HairShort_57: -1122495005
+      HairShort_35: 635455231
+      HairShort_15: -1836650642
+      HairShort_37: 466450282
+      HairShort_54: -511316130
+      HairShort_7: -109256812
+      HairShort_62: -796850875
+      HairShort_33: -549447202
+      HairShort_42: 1555860925
+      HairShort_25: -2096350445
+      HairShort_34: 390663641
+      HairShort_4: 285956518
+      HairShort_51: -1406800236
+      HairShort_17: -1875508471
+      HairShort_14: -1396805327
+      HairShort_60: 270345408
+      HairShort_3: 307806494
+      HairShort_24: -1670380188
+      HairShort_22: 872271408
+      HairShort_38: -139097659
+      HairShort_46: -42844690
+      HairShort_39: 113581964
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

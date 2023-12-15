@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 5
   Part: 0
-  PartColor: {r: 1, g: 1, b: 1, a: 1}
+  PartColor: {r: 0.36126232, g: 0.34184766, b: 0.4339623, a: 1}
   Name: Basic pant
   Value: 100
   ImageSprite: {fileID: 1520155892, guid: 4ad6ed6b899231f4cb4654227ec3b5a3, type: 3}
