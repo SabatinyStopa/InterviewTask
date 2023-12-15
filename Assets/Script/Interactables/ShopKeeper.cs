@@ -7,15 +7,9 @@ namespace InterviewTask.Interactables
     {
         [SerializeField] private ShopManager shopManager;
 
-        private void Start()
-        {
-            ShopManager.OnClose += () => { isBusy = false; };
-        }
+        private void Start() => ShopManager.OnClose += () => { isBusy = false; };
 
-        private void OnDestroy()
-        {
-            ShopManager.OnClose -= () => { isBusy = false; };
-        }
+        private void OnDestroy() => ShopManager.OnClose -= () => { isBusy = false; };
 
         protected override void Interact()
         {
