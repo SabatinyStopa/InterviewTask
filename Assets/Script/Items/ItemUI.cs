@@ -3,16 +3,16 @@ using UnityEngine;
 using TMPro;
 using InterviewTask.Managers;
 
-namespace InterviewTask.Equipables
+namespace InterviewTask.Items
 {
     public class ItemUI : MonoBehaviour
     {
-        [SerializeField] private Image mainImage;
-        [SerializeField] private TextMeshProUGUI itemName;
-        [SerializeField] private TextMeshProUGUI itemValue;
+        [SerializeField] protected Image mainImage;
+        [SerializeField] protected TextMeshProUGUI itemName;
+        [SerializeField] protected TextMeshProUGUI itemValue;
 
-        private Item item;
-        private CharacterCustomization characterCustomizationManager;
+        protected Item item;
+        protected CharacterCustomization characterCustomizationManager;
 
         public void SetItem(Item item, CharacterCustomization characterCustomizationManager)
         {
@@ -26,6 +26,6 @@ namespace InterviewTask.Equipables
             this.characterCustomizationManager = characterCustomizationManager;
         }
 
-        public void OnSelectItem() => characterCustomizationManager.SetPreview(item.Part, item.Animator, item.PartColor, item.ImageSprite);
+        public virtual void OnSelectItem() => characterCustomizationManager.SetPreview(item.Part, item.Animator, item.PartColor, item.ImageSprite);
     }
 }

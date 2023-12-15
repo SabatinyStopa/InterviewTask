@@ -2,7 +2,7 @@ using InterviewTask.Enums;
 using UnityEditor.Animations;
 using UnityEngine;
 
-namespace InterviewTask.Equipables
+namespace InterviewTask.Items
 {
     public class Item
     {

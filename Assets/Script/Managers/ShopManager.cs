@@ -1,5 +1,5 @@
 using InterviewTask.Scriptables;
-using InterviewTask.Equipables;
+using InterviewTask.Items;
 using UnityEngine;
 
 namespace InterviewTask.Managers

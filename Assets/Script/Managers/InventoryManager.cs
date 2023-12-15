@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using InterviewTask.Equipables;
+using InterviewTask.Items;
 
 namespace InterviewTask.Managers
 {

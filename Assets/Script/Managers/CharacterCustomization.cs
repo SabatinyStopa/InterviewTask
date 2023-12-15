@@ -1,5 +1,5 @@
 using InterviewTask.Enums;
-using InterviewTask.Equipables;
+using InterviewTask.Items;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
