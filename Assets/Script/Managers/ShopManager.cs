@@ -1,8 +1,5 @@
 using InterviewTask.Scriptables;
 using InterviewTask.Equipables;
-using UnityEditor.Animations;
-using InterviewTask.Enums;
-using UnityEngine.UI;
 using UnityEngine;
 
 namespace InterviewTask.Managers

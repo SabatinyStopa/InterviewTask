@@ -1,8 +1,5 @@
 using System.Collections.Generic;
 using InterviewTask.Equipables;
-using UnityEditor.Animations;
-using InterviewTask.Enums;
-using UnityEngine;
 
 namespace InterviewTask.Managers
 {
