@@ -12,9 +12,9 @@ namespace InterviewTask.Equipables
         [SerializeField] private TextMeshProUGUI itemValue;
 
         private Item item;
-        private CharacterEquipamentManager characterEquipamentManager;
+        private CharacterCustomization characterCustomizationManager;
 
-        public void SetItem(Item item, CharacterEquipamentManager characterEquipamentManager)
+        public void SetItem(Item item, CharacterCustomization characterCustomizationManager)
         {
             this.item = item;
 
@@ -23,9 +23,9 @@ namespace InterviewTask.Equipables
             mainImage.sprite = item.ImageSprite;
             mainImage.color = item.PartColor;
 
-            this.characterEquipamentManager = characterEquipamentManager;
+            this.characterCustomizationManager = characterCustomizationManager;
         }
 
-        public void OnSelectItem() => characterEquipamentManager.SetPreview(item.Part, item.Animator, item.PartColor, item.ImageSprite);
+        public void OnSelectItem() => characterCustomizationManager.SetPreview(item.Part, item.Animator, item.PartColor, item.ImageSprite);
     }
 }
