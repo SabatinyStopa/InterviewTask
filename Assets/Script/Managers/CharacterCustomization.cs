@@ -5,6 +5,7 @@ using InterviewTask.Items;
 using UnityEngine.UI;
 using UnityEngine;
 using System;
+using InterviewTask.Players;
 
 namespace InterviewTask.Managers
 {
@@ -104,6 +105,8 @@ namespace InterviewTask.Managers
             OnEquipItem?.Invoke(currentSelectedItem.Item);
 
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
+
+            Player.Instance.DisableAndEnableAnimator();
         }
 
         public virtual void OnClickUnequip()
@@ -127,6 +130,7 @@ namespace InterviewTask.Managers
             OnUnequipItem?.Invoke(currentSelectedItem.Item);
 
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
+            Player.Instance.DisableAndEnableAnimator();
         }
 
         public virtual void Select(ItemUI itemUI) => currentSelectedItem = itemUI;

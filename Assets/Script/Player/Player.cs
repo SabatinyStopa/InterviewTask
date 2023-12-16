@@ -35,6 +35,21 @@ namespace InterviewTask.Players
 
         private void FixedUpdate() => body.velocity = direction * Time.fixedDeltaTime;
 
+        public void DisableAndEnableAnimator()
+        {
+            foreach (Animator animator in animators)
+            {
+                if (!animator.gameObject.activeInHierarchy) continue;
+                animator.enabled = false;
+            }
+
+            foreach (Animator animator in animators)
+            {
+                if (!animator.gameObject.activeInHierarchy) continue;
+                animator.enabled = true;
+            }
+        }
+
         public void ShowCanInteractText() => interactText.enabled = true;
 
         public void HideCanInteractText() => interactText.enabled = false;
