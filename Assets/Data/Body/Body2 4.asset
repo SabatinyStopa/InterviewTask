@@ -17,5 +17,5 @@ MonoBehaviour:
   PartColor: {r: 1, g: 0.3915094, b: 0.9226585, a: 1}
   Name: e
   Value: 100
-  ImageSprite: {fileID: 722602843, guid: 7a057ca261ceb394d8b8cce9b7556bbc, type: 3}
+  ImageSprite: {fileID: 1270377467, guid: 7a057ca261ceb394d8b8cce9b7556bbc, type: 3}
   Animator: {fileID: 9100000, guid: 460efd5e06694304aabf1915ef752f3e, type: 2}
