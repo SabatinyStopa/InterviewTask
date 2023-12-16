@@ -1,12 +1,14 @@
 using System.Collections.Generic;
 using InterviewTask.Items;
+using TMPro;
 using UnityEngine;
 
 namespace InterviewTask.Managers
 {
     public class InventoryManager : CharacterCustomization
     {
-        private float currentAmount = 1000;
+        [SerializeField] private TextMeshProUGUI amountText;
+        private float currentAmount = 200f;
 
         private Item currentHeadItem;
         private Item currentBodyItem;
@@ -18,6 +20,7 @@ namespace InterviewTask.Managers
         }
 
         private List<InventoryItem> items = new List<InventoryItem>();
+
         public float CurrentAmount { get => currentAmount; }
 
         private void Start()
@@ -32,6 +35,11 @@ namespace InterviewTask.Managers
             OnUnequipItem -= RemoveCurrentEquip;
         }
 
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.I) && !IsOpen) Open();
+        }
+
         private void SetCurrentEquip(Item item)
         {
             if (item.Part == Enums.CustomizableParts.body) currentBodyItem = item;
@@ -44,15 +52,13 @@ namespace InterviewTask.Managers
             else currentHeadItem = null;
         }
 
+        public void AddCurrentAmount(float amount) => currentAmount += amount;
+
         public override void Open()
         {
             base.Open();
             SetEquipped();
-        }
-
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.I) && !IsOpen) Open();
+            amountText.text = moneyPrefix + currentAmount.ToString();
         }
 
         public void BuyItem(Item item)
@@ -67,11 +73,11 @@ namespace InterviewTask.Managers
                 ItemUI = (InventoryItemUI)itemUi
             };
 
-
             items.Add(inventoryItem);
             itemUi.SetItem(newItem, this);
 
             itemUi.SetValueText("");
+            amountText.text = moneyPrefix + currentAmount.ToString();
         }
 
         public void SellItem(Item item)
@@ -88,6 +94,8 @@ namespace InterviewTask.Managers
                     break;
                 }
             }
+
+            amountText.text = moneyPrefix + currentAmount.ToString();
         }
 
         public bool IsItemEquipped(Item item)
@@ -118,7 +126,10 @@ namespace InterviewTask.Managers
         {
             foreach (InventoryItem inventoryItem in items)
             {
-                if (currentBodyItem != null && inventoryItem.Item.Id == currentBodyItem.Id || currentHeadItem != null && inventoryItem.Item.Id == currentHeadItem.Id)
+                if (currentBodyItem != null
+                    && inventoryItem.Item.Id == currentBodyItem.Id
+                    || currentHeadItem != null
+                    && inventoryItem.Item.Id == currentHeadItem.Id)
                     inventoryItem.ItemUI.SetValueText("EQUIPPED");
                 else
                     inventoryItem.ItemUI.SetValueText("");

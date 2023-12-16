@@ -4,6 +4,7 @@ using InterviewTask.Items;
 using UnityEngine;
 using UnityEditor;
 using System;
+using TMPro;
 
 namespace InterviewTask.Managers
 {
@@ -15,6 +16,8 @@ namespace InterviewTask.Managers
         [SerializeField] private GameObject soldItemButton;
         [SerializeField] private GameObject equipItemButton;
         [SerializeField] private InventoryManager inventoryManager;
+        [SerializeField] private TextMeshProUGUI amountText;
+        [SerializeField] private string errorSound = "Error";
 
         private void Start() => GenerateCustomizableParts();
 
@@ -46,6 +49,12 @@ namespace InterviewTask.Managers
             buyItemButton.SetActive(!itemUI.IsSold);
         }
 
+        public override void Open()
+        {
+            base.Open();
+            amountText.text = moneyPrefix + inventoryManager.CurrentAmount.ToString();
+        }
+
         public override void Close()
         {
             base.Close();
@@ -64,6 +73,14 @@ namespace InterviewTask.Managers
                 buyItemButton.SetActive(false);
 
                 EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
+
+                amountText.text = moneyPrefix + inventoryManager.CurrentAmount.ToString();
+                SoundManager.Instance.PlaySound("Cash");
+            }
+            else
+            {
+                SoundManager.Instance.PlaySound(errorSound);
+                DialogueManager.Instance.PlayDialogue("Cannot buy! Talk to the mage!", 1.2f);
             }
         }
 
@@ -90,6 +107,8 @@ namespace InterviewTask.Managers
             equipItemButton.SetActive(false);
             buyItemButton.SetActive(true);
 
+            amountText.text = moneyPrefix + inventoryManager.CurrentAmount.ToString();
+            SoundManager.Instance.PlaySound("Cash");
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
         }
 

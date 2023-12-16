@@ -31,6 +31,8 @@ namespace InterviewTask.Managers
         [SerializeField] protected Sprite bodyDefault;
         [SerializeField] protected AnimatorController bodyAnimatorDefault;
 
+        protected string moneyPrefix = "$: ";
+
         protected ItemUI currentSelectedItem;
 
         public virtual void Open()
