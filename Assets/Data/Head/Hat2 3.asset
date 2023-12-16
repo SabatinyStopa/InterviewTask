@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 38
   Part: 1
   PartColor: {r: 0.7390537, g: 0.45977217, b: 0.7924528, a: 1}
-  Name: e
-  Value: 100
+  Name: deep Hat
+  Value: 250
   ImageSprite: {fileID: 1647765717, guid: 234dd1c8fadd6ff469e47d9115c11977, type: 3}
   Animator: {fileID: 9100000, guid: 16a494dc95726034b9a2790e41455412, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 1
   Part: 0
   PartColor: {r: 1, g: 0.5235849, b: 0.5235849, a: 1}
-  Name: Basic pant
-  Value: 100
+  Name: Crop
+  Value: 120
   ImageSprite: {fileID: 1520155892, guid: 4ad6ed6b899231f4cb4654227ec3b5a3, type: 3}
   Animator: {fileID: 9100000, guid: dea957d0ff017fb4b90091ea124b9a9b, type: 2}

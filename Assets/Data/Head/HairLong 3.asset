@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 23
   Part: 1
   PartColor: {r: 0.7390537, g: 0.45977217, b: 0.7924528, a: 1}
-  Name: e
-  Value: 100
+  Name: Long hair deep
+  Value: 30
   ImageSprite: {fileID: -1449039368, guid: ab6056b0936151a4cb08c9c392e3b988, type: 3}
   Animator: {fileID: 9100000, guid: 0ad980c4ed042b445a935c1dc67230f9, type: 2}

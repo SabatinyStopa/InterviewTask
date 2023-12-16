@@ -1,3 +1,4 @@
+using System.Collections;
 using InterviewTask.Managers;
 using TMPro;
 using UnityEngine;
@@ -37,17 +38,7 @@ namespace InterviewTask.Players
 
         public void DisableAndEnableAnimator()
         {
-            foreach (Animator animator in animators)
-            {
-                if (!animator.gameObject.activeInHierarchy) continue;
-                animator.enabled = false;
-            }
-
-            foreach (Animator animator in animators)
-            {
-                if (!animator.gameObject.activeInHierarchy) continue;
-                animator.enabled = true;
-            }
+            foreach (Animator animator in animators) animator.Play(0);
         }
 
         public void ShowCanInteractText() => interactText.enabled = true;

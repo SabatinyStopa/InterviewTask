@@ -1,4 +1,3 @@
-using UnityEditor.Animations;
 using InterviewTask.Enums;
 using UnityEngine;
 
@@ -13,6 +12,6 @@ namespace InterviewTask.Scriptables
         public string Name;
         public string Value;
         public Sprite ImageSprite;
-        public AnimatorController Animator;
+        public RuntimeAnimatorController Animator;
     }
 }

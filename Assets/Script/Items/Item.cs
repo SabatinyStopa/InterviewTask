@@ -1,5 +1,4 @@
 using InterviewTask.Enums;
-using UnityEditor.Animations;
 using UnityEngine;
 
 namespace InterviewTask.Items
@@ -12,7 +11,7 @@ namespace InterviewTask.Items
         public string Name;
         public string Value;
         public Sprite ImageSprite;
-        public AnimatorController Animator;
+        public RuntimeAnimatorController Animator;
 
         public Item()
         {

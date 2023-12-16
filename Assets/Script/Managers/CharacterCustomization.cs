@@ -1,5 +1,4 @@
 using UnityEngine.EventSystems;
-using UnityEditor.Animations;
 using InterviewTask.Enums;
 using InterviewTask.Items;
 using UnityEngine.UI;
@@ -30,7 +29,7 @@ namespace InterviewTask.Managers
         [SerializeField] protected Transform contentParent;
 
         [SerializeField] protected Sprite bodyDefault;
-        [SerializeField] protected AnimatorController bodyAnimatorDefault;
+        [SerializeField] protected RuntimeAnimatorController bodyAnimatorDefault;
 
         protected string moneyPrefix = "$: ";
 

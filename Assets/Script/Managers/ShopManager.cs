@@ -2,9 +2,9 @@ using InterviewTask.Scriptables;
 using UnityEngine.EventSystems;
 using InterviewTask.Items;
 using UnityEngine;
-using UnityEditor;
 using System;
 using TMPro;
+using InterviewTask.Enums;
 
 namespace InterviewTask.Managers
 {
@@ -28,7 +28,7 @@ namespace InterviewTask.Managers
                 var itemUi = Instantiate(itemUIPrefab, contentParent);
                 var item = new Item
                 {
-                    Name = "Item " + UnityEngine.Random.Range(0, 1001),
+                    Name = itemScriptable.Name,
                     PartColor = itemScriptable.PartColor,
                     Animator = itemScriptable.Animator,
                     Value = itemScriptable.Value,
@@ -59,6 +59,33 @@ namespace InterviewTask.Managers
         {
             base.Close();
             OnClose?.Invoke();
+        }
+
+        public void OnClickFilter(int filterIndex)
+        {
+            if (filterIndex == 0)
+            {
+                foreach (Transform child in contentParent.transform)
+                {
+                    if (child.GetComponent<ItemUI>().Item.Part == CustomizableParts.body) child.gameObject.SetActive(true);
+                    else child.gameObject.SetActive(false);
+                }
+            }
+            else if (filterIndex == 1)
+            {
+                foreach (Transform child in contentParent.transform)
+                {
+                    if (child.GetComponent<ItemUI>().Item.Part == CustomizableParts.head) child.gameObject.SetActive(true);
+                    else child.gameObject.SetActive(false);
+                }
+            }
+            else
+            {
+                foreach (Transform child in contentParent.transform)
+                {
+                    child.gameObject.SetActive(true);
+                }
+            }
         }
 
         public void OnClickBuy()
@@ -112,15 +139,15 @@ namespace InterviewTask.Managers
             EventSystem.current.SetSelectedGameObject(currentSelectedItem.gameObject);
         }
 
-        [ContextMenu("Set Id for scriptables")]
-        private void SetIdForScriptables()
-        {
-            for (int i = 0; i < itemScriptables.Length; i++)
-            {
-                var itemScriptable = itemScriptables[i];
-                itemScriptable.Id = i + 1;
-                EditorUtility.SetDirty(itemScriptable);
-            }
-        }
+        // [ContextMenu("Set Id for scriptables")]
+        // private void SetIdForScriptables()
+        // {
+        //     for (int i = 0; i < itemScriptables.Length; i++)
+        //     {
+        //         var itemScriptable = itemScriptables[i];
+        //         itemScriptable.Id = i + 1;
+        //         EditorUtility.SetDirty(itemScriptable);
+        //     }
+        // }
     }
 }

@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 30
   Part: 1
   PartColor: {r: 1, g: 1, b: 1, a: 1}
-  Name: e
-  Value: 100
+  Name: short hair
+  Value: 150
   ImageSprite: {fileID: -779164754, guid: 0acc9aee89d00ce4e888a86f4c0f5391, type: 3}
   Animator: {fileID: 9100000, guid: c383fe45815cb2b438e793cc0cb5259a, type: 2}

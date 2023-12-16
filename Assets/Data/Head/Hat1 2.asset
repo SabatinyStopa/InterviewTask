@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 32
   Part: 1
   PartColor: {r: 0.7189224, g: 0.5058824, b: 1, a: 1}
-  Name: e
-  Value: 100
+  Name: velvet Hat
+  Value: 200
   ImageSprite: {fileID: 2127709571, guid: 9ab53c2bdc029df439821b9a89f050dc, type: 3}
   Animator: {fileID: 9100000, guid: a38b1036730f12043a9f930532d5c1a9, type: 2}

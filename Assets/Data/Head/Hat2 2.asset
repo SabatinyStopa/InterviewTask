@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 37
   Part: 1
   PartColor: {r: 0.7189224, g: 0.5058824, b: 1, a: 1}
-  Name: e
-  Value: 100
+  Name: purple Hat
+  Value: 250
   ImageSprite: {fileID: 1647765717, guid: 234dd1c8fadd6ff469e47d9115c11977, type: 3}
   Animator: {fileID: 9100000, guid: 16a494dc95726034b9a2790e41455412, type: 2}
