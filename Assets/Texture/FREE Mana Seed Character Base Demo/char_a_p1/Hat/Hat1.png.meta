@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_0
+      name: Hat1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 612254f66184d634e827f011c815e52d
-      internalID: -707293406
+      spriteID: 9c82cf48da511ae48849aeaf3720fe7d
+      internalID: 2127709571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_1
+      name: Hat1_1
       rect:
         serializedVersion: 2
         x: 64
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12bd3f41a8c7814281164f50c6ad43e
-      internalID: 1476699153
+      spriteID: 4b1076bb785a108419f5059bcaa0f401
+      internalID: -1579324942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_2
+      name: Hat1_2
       rect:
         serializedVersion: 2
         x: 128
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e8bfdbf71dc8f46953782dc9decbd2
-      internalID: 1872763116
+      spriteID: b9b46d09f8958e2409a92359adea7f98
+      internalID: -321827622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_3
+      name: Hat1_3
       rect:
         serializedVersion: 2
         x: 192
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f3d64eee7ba7244f801f6bf2acf68c1
-      internalID: 1813041258
+      spriteID: 785acfdc049d46c4d885ba9683343203
+      internalID: -695731182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_4
+      name: Hat1_4
       rect:
         serializedVersion: 2
         x: 256
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c271e8748d1e45f40a6f8e4f5fb41831
-      internalID: -1369147823
+      spriteID: 3265d2272b1e8a14b812dbce98ac4cdd
+      internalID: -1173918533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_5
+      name: Hat1_5
       rect:
         serializedVersion: 2
         x: 320
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52005b1c69c1aa949b03d7d21a8d10e6
-      internalID: -2057929557
+      spriteID: c699c72fe4be19a41adc14f5423c668f
+      internalID: -2056544117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_6
+      name: Hat1_6
       rect:
         serializedVersion: 2
         x: 384
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cf00258e91f0eb449b5222b145fea70
-      internalID: 1126949436
+      spriteID: 2fd1c82990881ea4abf5508fe467e4b9
+      internalID: 2027210359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_7
+      name: Hat1_7
       rect:
         serializedVersion: 2
         x: 448
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d72c3ec23219ab4e9ced267048c8ec1
-      internalID: -259352687
+      spriteID: 31bf1e97d95787a4b9f21a6d7de0965d
+      internalID: -777829006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_8
+      name: Hat1_8
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b13379298662baf45b99a6da0f52b926
-      internalID: -507873642
+      spriteID: 77162dfb4b0916a4da343c31d66b5178
+      internalID: -927302165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_9
+      name: Hat1_9
       rect:
         serializedVersion: 2
         x: 64
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f20b048a0b7da5a4a9663eb13e720352
-      internalID: -790077142
+      spriteID: 9a96971b1b9d5d94b96dd48187c3b380
+      internalID: 1116441467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_10
+      name: Hat1_10
       rect:
         serializedVersion: 2
         x: 128
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4e8cc8ce7ade044cb8818da542da546
-      internalID: -873566837
+      spriteID: d51266b23c6273942a30d6a05dfb437e
+      internalID: -1054623227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_11
+      name: Hat1_11
       rect:
         serializedVersion: 2
         x: 192
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a05f502a21e212e4dbaf9031ac082ce4
-      internalID: 261747267
+      spriteID: 5fc721249dcdb3847ac1972439dd7c43
+      internalID: 728646128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_12
+      name: Hat1_12
       rect:
         serializedVersion: 2
         x: 256
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa5126246cc06354aacd5c25576d866f
-      internalID: -141166278
+      spriteID: 707d786a54256ed4a94a0840cf7cbed9
+      internalID: 420180496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_13
+      name: Hat1_13
       rect:
         serializedVersion: 2
         x: 320
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 194e7d911f4f76f41badeeb22ef553df
-      internalID: -1614266549
+      spriteID: 6d92b030c2014f2438c69b0cfc1af60c
+      internalID: 273327994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_14
+      name: Hat1_14
       rect:
         serializedVersion: 2
         x: 384
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06295da229aca2545b03cefe3ec5983f
-      internalID: -1211857904
+      spriteID: 0dbe00a3d122d524faeb872c3e79b440
+      internalID: -1029456979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_15
+      name: Hat1_15
       rect:
         serializedVersion: 2
         x: 448
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a429c49bfafcd49942042c5d85addd
-      internalID: -1477384956
+      spriteID: 41e8280fc967afb46938da2b71f7e8e5
+      internalID: 1081523009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_16
+      name: Hat1_16
       rect:
         serializedVersion: 2
         x: 0
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d416c1d7ee8e63b46a772a8811d867e5
-      internalID: -926132408
+      spriteID: 7e92ffccf65457345aaee140bafcde5b
+      internalID: -365889210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_17
+      name: Hat1_17
       rect:
         serializedVersion: 2
         x: 64
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a6560052cc61764694ae345689d763a
-      internalID: 1216293485
+      spriteID: c1b065b2d11eae947b0ba2e77fdb6d76
+      internalID: 1617625589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_18
+      name: Hat1_18
       rect:
         serializedVersion: 2
         x: 128
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6cd3e3dda76424584368408d7d8944
-      internalID: 715769825
+      spriteID: 705d9d340e5784b428028767d6b26f39
+      internalID: -1962783180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_19
+      name: Hat1_19
       rect:
         serializedVersion: 2
         x: 192
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad00c0faec962b14f8703fb0b0cb345a
-      internalID: 1323798476
+      spriteID: 05f9d40ce3199c1439d94c7e4ce490a3
+      internalID: -1246720187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_20
+      name: Hat1_20
       rect:
         serializedVersion: 2
         x: 256
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78c321fccf5b59b4299dc31c4dbc6a82
-      internalID: -718122495
+      spriteID: d7b94f667f9978344b7d52ae3c0e3a23
+      internalID: 2065792441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_21
+      name: Hat1_21
       rect:
         serializedVersion: 2
         x: 320
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17faca080449a164daa1949d720bf341
-      internalID: 1998419139
+      spriteID: c89696d5f781e164f986b98bc1d03019
+      internalID: 1817990436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_22
+      name: Hat1_22
       rect:
         serializedVersion: 2
         x: 384
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33376133921b32241a727c8c0d7611d9
-      internalID: 1296067211
+      spriteID: 5d466a0efec1c0144b7e924f0ef1ec5b
+      internalID: -213530358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_23
+      name: Hat1_23
       rect:
         serializedVersion: 2
         x: 448
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9374e7c91fe34224d886028c0247abfb
-      internalID: -1147629611
+      spriteID: 6f924473239d367439bdae89acf6dd54
+      internalID: 1075012169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_24
+      name: Hat1_24
       rect:
         serializedVersion: 2
         x: 0
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c7aaa6f65e83ee4b8602e775a7c606c
-      internalID: -1441320613
+      spriteID: ee810aea29dbd8a4c901abbb7b546ec3
+      internalID: 1753988031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_25
+      name: Hat1_25
       rect:
         serializedVersion: 2
         x: 64
@@ -643,14 +643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e69c23a70eddbe4d936d2726a1d3de3
-      internalID: 1395436923
+      spriteID: 32a1641761be47a48ad30cd6feac18ef
+      internalID: -486703650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_26
+      name: Hat1_26
       rect:
         serializedVersion: 2
         x: 128
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e847a574b76968e4ea45136170c69c3a
-      internalID: 711208348
+      spriteID: 68db7fc1e30a9a94ea635e697f8decaf
+      internalID: 37212145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_27
+      name: Hat1_27
       rect:
         serializedVersion: 2
         x: 192
@@ -685,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e30bc827aca3ff4d89af6c1abeb7a27
-      internalID: -1852780952
+      spriteID: fec9d05d3a3313d4e875d297f8659674
+      internalID: -393415495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_28
+      name: Hat1_28
       rect:
         serializedVersion: 2
         x: 256
@@ -706,14 +706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b23d8e37c0d7484d9fdafb0ec78a782
-      internalID: -1077384375
+      spriteID: dde396ce452eac34d8770b2174117c30
+      internalID: 1577726323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_29
+      name: Hat1_29
       rect:
         serializedVersion: 2
         x: 320
@@ -727,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b06d8d216a0a3dc4d9a0b96ad63ed998
-      internalID: -1304028539
+      spriteID: 78bacacd7113b7645813a1cd39f8d706
+      internalID: 187104918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_30
+      name: Hat1_30
       rect:
         serializedVersion: 2
         x: 384
@@ -748,14 +748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c7f9d665e66156499225820264764d6
-      internalID: -1292035823
+      spriteID: c61eb2716a5c2cd4292beec3029794ba
+      internalID: -2102688096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_31
+      name: Hat1_31
       rect:
         serializedVersion: 2
         x: 448
@@ -769,14 +769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 835b49758e47ea64db6d54fc03745492
-      internalID: -1550807079
+      spriteID: d719fd9ac6df9584bbaad4a64c41f5d7
+      internalID: -893955002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_32
+      name: Hat1_32
       rect:
         serializedVersion: 2
         x: 0
@@ -790,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d73b5519071dc494284914f0f22a1dfe
-      internalID: -1968886012
+      spriteID: 7a4c611315d5ccb469aba503b258d1ac
+      internalID: 899869071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_33
+      name: Hat1_33
       rect:
         serializedVersion: 2
         x: 64
@@ -811,14 +811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b75f24df4d43444093d4e625fb1ce55
-      internalID: 1873917490
+      spriteID: 67ee4fa63cbec214991b9622cfb1fbf9
+      internalID: 1991660540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_34
+      name: Hat1_34
       rect:
         serializedVersion: 2
         x: 128
@@ -832,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 911492a91e2921f4dbc7cff123cbeb66
-      internalID: -641063193
+      spriteID: 8eeb8f479f8118a4685fc238458b2541
+      internalID: 199224299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_35
+      name: Hat1_35
       rect:
         serializedVersion: 2
         x: 192
@@ -853,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87e42ea3cbbf7d44abbb0af436788b83
-      internalID: -110401419
+      spriteID: dbc70f761a9cd974aa579e4edd57d2e8
+      internalID: 947192471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_36
+      name: Hat1_36
       rect:
         serializedVersion: 2
         x: 256
@@ -874,14 +874,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf67a53635641f42b5c3cd62d6ffe78
-      internalID: -441151748
+      spriteID: 9d4f559370856b74a84e99c535913edd
+      internalID: 1425759363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_37
+      name: Hat1_37
       rect:
         serializedVersion: 2
         x: 320
@@ -895,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d21b2303a1d1ae8408d4e4a90772fc58
-      internalID: 1711022523
+      spriteID: 1a4c2e0f9ec957e4f9c1d96715eedb48
+      internalID: -896978882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_38
+      name: Hat1_38
       rect:
         serializedVersion: 2
         x: 384
@@ -916,14 +916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0af8ef02029a614aad6a338c578cbec
-      internalID: 1172478570
+      spriteID: 8c9626f4169154f498a5c584a3536b90
+      internalID: 814450102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_39
+      name: Hat1_39
       rect:
         serializedVersion: 2
         x: 448
@@ -937,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e864cd8f6b76044913c10667db2367
-      internalID: -319682216
+      spriteID: 5d545f80f0186c24ba357023b84de5b2
+      internalID: 721747330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_40
+      name: Hat1_40
       rect:
         serializedVersion: 2
         x: 0
@@ -958,14 +958,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8004a9f07677e564f81f03cdf7df9a65
-      internalID: 1299909155
+      spriteID: 09c5da3e4fa2c894e884063cc6750645
+      internalID: 625413758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_41
+      name: Hat1_41
       rect:
         serializedVersion: 2
         x: 64
@@ -979,14 +979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92973e84e1ccbf94481ad79b908e8017
-      internalID: 872521478
+      spriteID: 2395f3ac28276ef4d97465e25d7c5394
+      internalID: -2079445724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_42
+      name: Hat1_42
       rect:
         serializedVersion: 2
         x: 128
@@ -1000,14 +1000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab92a55325177448a56cf8532f078b5
-      internalID: 1558247524
+      spriteID: 046ef3024c717dc48a87e3f2ebb00405
+      internalID: -286314798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_43
+      name: Hat1_43
       rect:
         serializedVersion: 2
         x: 192
@@ -1021,14 +1021,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1205350e5fa7c304c812143d4e03433b
-      internalID: -1314378496
+      spriteID: e0a1bd9adad96f142a02ba438713b7ee
+      internalID: -867290719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_44
+      name: Hat1_44
       rect:
         serializedVersion: 2
         x: 256
@@ -1042,14 +1042,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66c08c88e227cc14580da4c4b857a47d
-      internalID: -2040491062
+      spriteID: dfdd45fbb0b24d041b9b20b38887480a
+      internalID: 1794838743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_45
+      name: Hat1_45
       rect:
         serializedVersion: 2
         x: 320
@@ -1063,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9368349c40148ad45ac2b4c1bdc85ef9
-      internalID: -1296137229
+      spriteID: 7e61b6eceb70643478d0a4a8802b0fc1
+      internalID: 74610950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_46
+      name: Hat1_46
       rect:
         serializedVersion: 2
         x: 384
@@ -1084,14 +1084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04442cfa3ab33974495b41bd51059a13
-      internalID: -277845790
+      spriteID: 1f1a232713b4ce847b4ed15d039e37f8
+      internalID: 1147609631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_47
+      name: Hat1_47
       rect:
         serializedVersion: 2
         x: 448
@@ -1105,14 +1105,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daab8815ff2b3aa49a2b387860199e7b
-      internalID: 943017773
+      spriteID: 9d387b5ddf9849a438d1aeccdbaa8c3f
+      internalID: 1309516770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_48
+      name: Hat1_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1126,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0faf899ed656e94488ba4b2227ddeb31
-      internalID: -720641265
+      spriteID: e0cc86028101ac04b8c041d5317aa91b
+      internalID: -765056726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_49
+      name: Hat1_49
       rect:
         serializedVersion: 2
         x: 64
@@ -1147,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c490860d8a767a24cabba3b819795f2b
-      internalID: 989510969
+      spriteID: 84f8ced6e37ca274da616f7a973ae79f
+      internalID: 531493230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_50
+      name: Hat1_50
       rect:
         serializedVersion: 2
         x: 128
@@ -1168,14 +1168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9e225531b80dcf41b4143592c1a7ac8
-      internalID: 794818617
+      spriteID: ad48e8afe794e1a48aff6ed4f31a9ae9
+      internalID: 1230190843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_51
+      name: Hat1_51
       rect:
         serializedVersion: 2
         x: 192
@@ -1189,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 183431de9b0ba75408f3e6b1305c7bf3
-      internalID: 333072983
+      spriteID: 84d18107587ab1949a2e9406e79258c2
+      internalID: 781918110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_52
+      name: Hat1_52
       rect:
         serializedVersion: 2
         x: 256
@@ -1210,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d15d450388b8cb41b55ea2625b292e1
-      internalID: 20903772
+      spriteID: edc96249773c0fb4b9e329a0669e6c5e
+      internalID: 1891549000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_53
+      name: Hat1_53
       rect:
         serializedVersion: 2
         x: 320
@@ -1231,14 +1231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24b0d49fc8a01449b711460ee52a594
-      internalID: 1414441080
+      spriteID: 398fcffcff062ab43af9ef83bfd37239
+      internalID: 1125655348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_54
+      name: Hat1_54
       rect:
         serializedVersion: 2
         x: 384
@@ -1252,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ef6725caa8254449b0f38a5f08efde3
-      internalID: 122034844
+      spriteID: b3a1b20d82d4e3642a041853a7d27db1
+      internalID: -265686449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_55
+      name: Hat1_55
       rect:
         serializedVersion: 2
         x: 448
@@ -1273,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 079676daca198a644bf368229c0a9896
-      internalID: 1852073777
+      spriteID: 56ba12ee5552f97469493a4f1d5bdbd5
+      internalID: 1986403995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_56
+      name: Hat1_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1294,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79333763c0269e34390eee2f0bea0e3d
-      internalID: 1128530040
+      spriteID: d62dbe9a13fb1c94b9d5db9839d46397
+      internalID: -494082188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_57
+      name: Hat1_57
       rect:
         serializedVersion: 2
         x: 64
@@ -1315,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a19c1266068ec8342aa95350fab91378
-      internalID: 494225831
+      spriteID: d4f0f0b427b35d44c81dd3b8c8b8ab30
+      internalID: -1860292549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_58
+      name: Hat1_58
       rect:
         serializedVersion: 2
         x: 128
@@ -1336,14 +1336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08d3092d25e044b4b94e25c773fab43e
-      internalID: -109627702
+      spriteID: 6cbfa1a8de397c74f86a1c7555811356
+      internalID: -1586734659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_59
+      name: Hat1_59
       rect:
         serializedVersion: 2
         x: 192
@@ -1357,14 +1357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a2d5e45ed0252419eabbabc8df854a
-      internalID: -264416767
+      spriteID: 5ceb9c2889452e643ba76fcd299e0b2b
+      internalID: 1367468140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_60
+      name: Hat1_60
       rect:
         serializedVersion: 2
         x: 256
@@ -1378,14 +1378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55551c35a0d5e8a46af0117256c0a15d
-      internalID: 1809809152
+      spriteID: 78a5ffd878f90144f9d9656923753b41
+      internalID: -665913691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_61
+      name: Hat1_61
       rect:
         serializedVersion: 2
         x: 320
@@ -1399,14 +1399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c046954d33242a7468e9ff6ea8c006e3
-      internalID: -969183061
+      spriteID: feb3e207f7dffbc4c973c5832137aba0
+      internalID: 1336831458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_62
+      name: Hat1_62
       rect:
         serializedVersion: 2
         x: 384
@@ -1420,14 +1420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b9533580dd980e409406552212cb3f3
-      internalID: -582974198
+      spriteID: 2184bfd144f0e9e4093b086b1ea85659
+      internalID: -444664721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pfht_v04_63
+      name: Hat1_63
       rect:
         serializedVersion: 2
         x: 448
@@ -1441,8 +1441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43fdfa9cbc589eb4dba7bacbba730538
-      internalID: -1303453011
+      spriteID: 680961c18ca62d348adc5ac96702e764
+      internalID: 1176440792
       vertices: []
       indices: 
       edges: []
@@ -1458,70 +1458,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_a_p1_5hat_pfht_v04_4: -1369147823
-      char_a_p1_5hat_pfht_v04_9: -790077142
-      char_a_p1_5hat_pfht_v04_51: 333072983
-      char_a_p1_5hat_pfht_v04_61: -969183061
-      char_a_p1_5hat_pfht_v04_63: -1303453011
-      char_a_p1_5hat_pfht_v04_45: -1296137229
-      char_a_p1_5hat_pfht_v04_23: -1147629611
-      char_a_p1_5hat_pfht_v04_42: 1558247524
-      char_a_p1_5hat_pfht_v04_55: 1852073777
-      char_a_p1_5hat_pfht_v04_60: 1809809152
-      char_a_p1_5hat_pfht_v04_34: -641063193
-      char_a_p1_5hat_pfht_v04_29: -1304028539
-      char_a_p1_5hat_pfht_v04_36: -441151748
-      char_a_p1_5hat_pfht_v04_21: 1998419139
-      char_a_p1_5hat_pfht_v04_0: -707293406
-      char_a_p1_5hat_pfht_v04_30: -1292035823
-      char_a_p1_5hat_pfht_v04_40: 1299909155
-      char_a_p1_5hat_pfht_v04_52: 20903772
-      char_a_p1_5hat_pfht_v04_12: -141166278
-      char_a_p1_5hat_pfht_v04_54: 122034844
-      char_a_p1_5hat_pfht_v04_37: 1711022523
-      char_a_p1_5hat_pfht_v04_19: 1323798476
-      char_a_p1_5hat_pfht_v04_57: 494225831
-      char_a_p1_5hat_pfht_v04_49: 989510969
-      char_a_p1_5hat_pfht_v04_25: 1395436923
-      char_a_p1_5hat_pfht_v04_3: 1813041258
-      char_a_p1_5hat_pfht_v04_41: 872521478
-      char_a_p1_5hat_pfht_v04_18: 715769825
-      char_a_p1_5hat_pfht_v04_31: -1550807079
-      char_a_p1_5hat_pfht_v04_22: 1296067211
-      char_a_p1_5hat_pfht_v04_38: 1172478570
-      char_a_p1_5hat_pfht_v04_15: -1477384956
-      char_a_p1_5hat_pfht_v04_62: -582974198
-      char_a_p1_5hat_pfht_v04_43: -1314378496
-      char_a_p1_5hat_pfht_v04_32: -1968886012
-      char_a_p1_5hat_pfht_v04_14: -1211857904
-      char_a_p1_5hat_pfht_v04_27: -1852780952
-      char_a_p1_5hat_pfht_v04_13: -1614266549
-      char_a_p1_5hat_pfht_v04_16: -926132408
-      char_a_p1_5hat_pfht_v04_17: 1216293485
-      char_a_p1_5hat_pfht_v04_10: -873566837
-      char_a_p1_5hat_pfht_v04_26: 711208348
-      char_a_p1_5hat_pfht_v04_5: -2057929557
-      char_a_p1_5hat_pfht_v04_8: -507873642
-      char_a_p1_5hat_pfht_v04_46: -277845790
-      char_a_p1_5hat_pfht_v04_24: -1441320613
-      char_a_p1_5hat_pfht_v04_28: -1077384375
-      char_a_p1_5hat_pfht_v04_35: -110401419
-      char_a_p1_5hat_pfht_v04_48: -720641265
-      char_a_p1_5hat_pfht_v04_1: 1476699153
-      char_a_p1_5hat_pfht_v04_47: 943017773
-      char_a_p1_5hat_pfht_v04_33: 1873917490
-      char_a_p1_5hat_pfht_v04_50: 794818617
-      char_a_p1_5hat_pfht_v04_2: 1872763116
-      char_a_p1_5hat_pfht_v04_53: 1414441080
-      char_a_p1_5hat_pfht_v04_39: -319682216
-      char_a_p1_5hat_pfht_v04_44: -2040491062
-      char_a_p1_5hat_pfht_v04_11: 261747267
-      char_a_p1_5hat_pfht_v04_59: -264416767
-      char_a_p1_5hat_pfht_v04_20: -718122495
-      char_a_p1_5hat_pfht_v04_56: 1128530040
-      char_a_p1_5hat_pfht_v04_6: 1126949436
-      char_a_p1_5hat_pfht_v04_7: -259352687
-      char_a_p1_5hat_pfht_v04_58: -109627702
+      Hat1_27: -393415495
+      Hat1_29: 187104918
+      Hat1_22: -213530358
+      Hat1_25: -486703650
+      Hat1_39: 721747330
+      Hat1_58: -1586734659
+      Hat1_52: 1891549000
+      Hat1_49: 531493230
+      Hat1_2: -321827622
+      Hat1_26: 37212145
+      Hat1_15: 1081523009
+      Hat1_41: -2079445724
+      Hat1_20: 2065792441
+      Hat1_37: -896978882
+      Hat1_16: -365889210
+      Hat1_23: 1075012169
+      Hat1_47: 1309516770
+      Hat1_18: -1962783180
+      Hat1_40: 625413758
+      Hat1_31: -893955002
+      Hat1_44: 1794838743
+      Hat1_46: 1147609631
+      Hat1_55: 1986403995
+      Hat1_50: 1230190843
+      Hat1_9: 1116441467
+      Hat1_32: 899869071
+      Hat1_4: -1173918533
+      Hat1_13: 273327994
+      Hat1_28: 1577726323
+      Hat1_12: 420180496
+      Hat1_57: -1860292549
+      Hat1_38: 814450102
+      Hat1_61: 1336831458
+      Hat1_60: -665913691
+      Hat1_1: -1579324942
+      Hat1_3: -695731182
+      Hat1_43: -867290719
+      Hat1_8: -927302165
+      Hat1_34: 199224299
+      Hat1_45: 74610950
+      Hat1_0: 2127709571
+      Hat1_6: 2027210359
+      Hat1_7: -777829006
+      Hat1_53: 1125655348
+      Hat1_59: 1367468140
+      Hat1_42: -286314798
+      Hat1_5: -2056544117
+      Hat1_17: 1617625589
+      Hat1_48: -765056726
+      Hat1_36: 1425759363
+      Hat1_11: 728646128
+      Hat1_21: 1817990436
+      Hat1_35: 947192471
+      Hat1_33: 1991660540
+      Hat1_56: -494082188
+      Hat1_51: 781918110
+      Hat1_30: -2102688096
+      Hat1_10: -1054623227
+      Hat1_19: -1246720187
+      Hat1_63: 1176440792
+      Hat1_24: 1753988031
+      Hat1_14: -1029456979
+      Hat1_62: -444664721
+      Hat1_54: -265686449
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
